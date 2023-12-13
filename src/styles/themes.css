@@ -1,0 +1,32 @@
+/* Styles pour les différents thèmes */
+.blue {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .green {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .red {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .purple {
+    background-color: #9b59b6;
+    color: #fff;
+  }
+  
+  /* Styles supplémentaires pour le bouton de sélection du thème */
+  #themeOptions {
+    margin-bottom: 20px;
+  }
+  
+  #themeOptions button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
