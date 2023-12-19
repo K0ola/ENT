@@ -12,7 +12,10 @@
     $result=$stmt->fetchall(PDO::FETCH_ASSOC);
     ?>
 <body>
-    <h1>test</h1>
+    <h1>TU ES BIEN CONNECTE EN TANT QU'UTILISATEUR ...</h1>
+    <?php
+    echo ($_SESSION["login"]. "<br>")
+    ?>
     <a href="../scripts/logout.php">Deconnection</a>
 </body>
 </html>
