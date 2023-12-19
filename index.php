@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/themes.css">
+    <link rel="stylesheet" href="./src/styles/connexion.css">
     <link rel="stylesheet" href="./src/styles/root.css">
     <title>Intranet Gustave Eiffel</title>
 </head>

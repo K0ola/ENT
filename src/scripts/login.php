@@ -11,8 +11,10 @@ if($stmt->rowCount()){
     $_SESSION["login"]=$result["login"];
     require('../../index.php');
     }
-    else {
-    include('./index.php?err=1');
+    else{
+        header("Location: ../../index.php?err=1");
     }
+} else{
+    header("Location: ../../index.php?err=1");
 }
 ?>
