@@ -27,7 +27,7 @@ Et scelerisque congue at vel cursus tempor id faucibus molestie. Vitae consectet
                 echo "<span>Identifiant / mot de passe incorrect</span>";
             }
         ?>
-        <form action="./src/scripts/login.php">
+        <form action="./src/scripts/login.php" method="POST">
             <div>
                 <label for="login">Identifiant</label>
                 <input type="text" name="login" id="login" required>
@@ -36,6 +36,7 @@ Et scelerisque congue at vel cursus tempor id faucibus molestie. Vitae consectet
                 <label for="password">Mot de passe</label>
                 <input type="password" name="password" id="password" required>
             </div>
+                <a href="./src/pages/mdp_forget.php">mot de passe oublié</a>
                 <input type="submit" value="Connexion" id="btn_connexion">
         </form>
     </div>

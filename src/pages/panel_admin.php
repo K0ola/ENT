@@ -6,14 +6,13 @@
     <title>Panel Administration</title>
 </head>
 <?php
-    include('../scripts/connexion_bdd.php');
     $requete =" SELECT * FROM utilisateurs";
     $stmt=$db->query($requete);
     $result=$stmt->fetchall(PDO::FETCH_ASSOC);
     ?>
 <body>
     <h1>TU ES BIEN CONNECTE EN TANT QU'ADMIN ...</h1>
-    <a href="../scripts/logout.php">Deconnection</a>
+    <a href="./src/scripts/logout.php">Deconnection</a>
     
 </body>
 </html>
