@@ -1,0 +1,24 @@
+form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form label {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+}
+form input[type=submit] {
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=panel_admin.css.map */
