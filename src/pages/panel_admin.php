@@ -13,6 +13,8 @@
 <body>
     <h1>TU ES BIEN CONNECTE EN TANT QU'ADMIN ...</h1>
     <a href="./src/scripts/logout.php">Deconnection</a>
+
+    <a href='./src/pages/gestion_comptes.php'>Gestionnaire de comptes</a>
     
 </body>
 </html>
