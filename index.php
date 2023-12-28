@@ -1,44 +1,41 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/themes.css">
-    <link rel="stylesheet" href="./src/styles/connexion.css">
-    <link rel="stylesheet" href="./src/styles/root.css">
-    <title>Intranet Gustave Eiffel</title>
-</head>
+<?php
+session_start();
+require_once('src/model.php');
+
+$userModel = new UserModel();
+$error = '';
+
+$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$path = trim($path, '/');
+$segments = explode('/', $path);
+
+$page = $segments[0] ?: 'dashboard';
+
+switch ($page) {
+    case 'dashboard':
+        require_once('src/pages/dashboard/dashboard_controller.php');
+        break;
+
+    case 'gestion-comptes':
+        require_once('src/pages/gestion_comptes/gestion_comptes_controller.php');
+        break;
+
+    case 'profil':
+        require_once('src/pages/profil/profil_controller.php');
+        break;
 
 
-<body>
-    <?php
-    include('src/scripts/connexion_bdd.php');
-    session_start();
-    if(isset($_SESSION["login"])){
-        if($_SESSION["login"]=="admin"){
-            require('src/pages/panel_admin.php');
-        }
-        else{
-            require('src/pages/panel_etudiant.php');
-        }
-    }
-    else{
-        require('src/pages/connexion.php');
-    }
+    case 'connexion':
+        require_once('src/pages/connexion/connexion_controller.php');
+        break;
 
-    ?>
+    case 'mdp-forget':
+        require_once('src/pages/mdp_forget/mdp_forget_controller.php');
+        break;
 
+    case 'reset':
+        require_once('src/pages/reset_mdp/reset_mdp_controller.php');
+        break;
 
-
-    <!-- <div id="themeOptions">
-        <button onclick="setTheme('blue')">Bleu</button>
-        <button onclick="setTheme('green')">Vert</button>
-        <button onclick="setTheme('red')">Rouge</button>
-        <button onclick="setTheme('purple')">Violet</button>
-    </div>
-    
-    <h1 id="title">Thème Changer</h1>
-
-    <script src="./src/scripts/themes.js"></script> -->
-</body>
-</html>
+}
+?>
