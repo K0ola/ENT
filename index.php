@@ -23,7 +23,10 @@ switch ($page) {
     case 'profil':
         require_once('src/pages/profil/profil_controller.php');
         break;
-
+    
+    case 'discussion':
+        require_once('src/pages/discussion/discussion_controller.php');
+        break;
 
     case 'connexion':
         require_once('src/pages/connexion/connexion_controller.php');

@@ -21,7 +21,7 @@
             echo "
             <a href=\"/dashboard\">Accueil</a>
             <a href=\"/agenda\">Agenda</a>
-            <a href=\"/communication\">Communication</a>
+            <a href=\"/discussion\">Communication</a>
             <a href=\"/vie-scolaire\">Vie scolaire</a>
             <a href=\"/outils\">Outils</a>
             <a href=\"/cours\">Cours</a>

@@ -8,7 +8,7 @@
         <img src="" alt="v">
 </div>
     <section id="list-conversations">
-        <a href="">Démarrer une conversation</a>
+        <a href="/discussion">Démarrer une conversation</a>
         <?php
         
 
