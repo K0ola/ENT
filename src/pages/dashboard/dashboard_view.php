@@ -10,24 +10,21 @@
     <div class="dashboard-container">
         
         <?php
-        require_once 'src/layout/nav.php';
-        echo "<h1>Tableau de bord</h1>";
-        
+        require_once 'src/layout/nav.php';      
         switch ($_SESSION['role']) {
             case 'admin':
-                echo "<p>Vous êtes administrateur.</p>";
+                require_once 'src/pages/dashboard/admin.php';
                 break;
             case 'prof':
-                echo "<p>Vous êtes professeur.</p>";
+                require_once 'src/pages/dashboard/prof.php';
                 break;
             case 'student':
-                echo "<p>Vous êtes étudiant.</p>";
+                require_once 'src/pages/dashboard/student.php';
                 break;
         }
-
-        echo '<a href="src/logout.php">Déconnexion</a>';
         ?>
 
     </div>
+    <?php require_once 'src/layout/discussion.php'; ?>
 </body>
 </html>

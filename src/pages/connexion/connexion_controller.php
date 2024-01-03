@@ -1,4 +1,10 @@
 <?php
+if ($_SERVER ['REQUEST_METHOD'] === 'GET') {
+    if (isset($_GET['error'])) {
+        $error = 'Login ou mot de passe incorrect.';
+        echo $error;
+    }
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $login = $_POST["login"];
     $password = $_POST["password"];
@@ -12,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: /dashboard');
         exit();
     } else {
-        $error = 'Login ou mot de passe incorrect.';
+        header('Location: /connexion?error=1');
     }
 }
 

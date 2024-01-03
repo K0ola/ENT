@@ -1,0 +1,49 @@
+#discussion-box{
+    z-index: 999999999;
+    position: fixed;
+    border: solid red 1px;
+    width: 250px;
+    height: 500px;
+}
+#top-disc{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+#list-conversations{
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#list-conversations a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.hidden{
+    position: absolute;
+    bottom: -450px;
+    right: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.visible{
+    position: absolute;
+    bottom: -450px;
+    right: 10px;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0, -450px);
+}
