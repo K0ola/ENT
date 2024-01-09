@@ -1,0 +1,99 @@
+nav {
+
+    display: grid;
+    grid-template-rows: repeat(3, fit-content(100%)) 1fr fit-content(100%);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "h"
+        "r"
+        "n"
+        "."
+        "f";
+    gap: var(--Gap-XL);
+    padding: var(--Padding-S);
+
+    background-color: var(--Couleur-1);
+    border-radius: var(--Rad-S);
+
+    
+    position: fixed;
+    top: 1vh;
+    left: 1vh;
+    height: 98vh;
+    z-index: 1000;
+    width: 200px;
+
+    font-size: var(--nav);
+}
+
+nav a {
+    color: var(--Text-1);
+}
+
+nav > header {
+    grid-area: h;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--Gap-XS);
+}
+
+.Nav_profil {
+    display: flex;
+    align-items: center;
+    gap: var(--Gap-S);
+}
+
+.Nav_logOut {
+    color: var(--Text-1-90);
+}
+
+nav hr {
+    grid-area: r;
+
+    border: 1px solid var(--Text-1-90);
+    border-radius: 1px;
+}
+
+nav > section {
+    grid-area: n;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--Gap-S);
+}
+
+nav > footer {
+    grid-area: f;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav_link {
+    display: flex;
+    align-items: center;
+    gap: var(--Gap-XS);
+}
+
+.Nav_link, .Nav_profil {
+    background-color: var(--Couleur-1);
+    border-radius: var(--Rad-XS);
+    padding: var(--Padding-XS);
+    
+    transition: 0.3s;
+}
+
+.Active {
+    background-color: var(--Couleur-2);
+}
+
+.Nav_link:hover, .Nav_profil:hover{
+    background-color: var(--Border);
+}
+
+@media (min-width: 700px) {
+
+}
