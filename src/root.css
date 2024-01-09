@@ -10,5 +10,67 @@
 
 :root{
     --main-font: 'Inter', sans-serif;
+
+
+    /** Couleur Primaire*/
+
+    --Noir: #09090B;
+    --Noir-90: #09090Be6;
+    --Noir-70: #09090Bb3;
+
+    --Blanc: #F8F8F8;
+    --Blanc-90: #F8F8F8e6;
+    --Blanc-70: #F8F8F8b3;
+
+    --bleu: #cfeaff;
+	--bleu-2: #79cfff;
+	--violet: #fcefff;
+	--violet-2: #f0abfc;
+	--rouge: #ffe0e0;
+	--rouge-2: #ffa2a2;
+	--vert: #e0eec9;
+	--vert-2: #b2d581;
+
+    /** Radius */
+
+    --Radius-XXS: 4px;
+	--Rad-XS: 8px;
+	--Rad-S: 16px;
+	--Rad-M: 24px;
+	--Rad-L: 32px;
+	--Rond: 100px;
+
+    /** Padding */
     
+    --Padding-XS: 6px;
+	--Padding-S: 12px;
+	--Padding-M: 18px;
+	--Padding-L: 24px;
+	--Padding-XL: 30px;
+
+    /** Gap  */
+
+    --Gap-XS: 6px;
+    --Gap\ S: 12px;
+	--Gap\ M: 18px;
+	--Gap\ L: 24px;
+	--Gap\ XL: 30px;
+
+	--GapN-XS: -6px;
+	--GapN-S: -12px;
+	--GapN-M: -18px;
+	--GapN-L: -24px;
+	--GapN-XL: -30px;
+
+    /** Texte */
+
+    --h1: 2.25rem;
+    --h2: 1.88rem;
+    --h3: 1.56rem;
+    --h4: 1.25rem;
+    --regular: 1rem;
+    --bold: 1rem;
+    --nav: 1rem;
+    --micro: 0.75rem;
+
 }

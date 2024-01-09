@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <title>Connexion</title>
     <link rel="stylesheet" href="src/root.css">
+    <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/connexion/styles/connexion.css">
 </head>
-<body>
+<body class="Tropical-Blue">
     <section id="connexion">
         <header>
             <h1>Connexion</h1>
