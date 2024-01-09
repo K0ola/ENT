@@ -9,9 +9,9 @@ if (!isset($_SESSION['login'])) {
 }
 
 $prenom = $_SESSION['prenom'];
-$nom = $_SESSION['nom_utilisateur'];
+$nom = $_SESSION['nom'];
 $login = $_SESSION['login'];
 $role = $_SESSION['role'];
-$class = $_SESSION['classe_id'];
+$class = $_SESSION['class'];
 
 require_once('profil_view.php');

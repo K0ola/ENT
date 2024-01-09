@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $recipient = $mail;
     $subject = "Demande de réinitialisation de mot de passe";
     $email_content = "Pour réinitialiser votre mot de passe, veuillez cliquer sur le lien suivant:\n\n";
-    $email_content .= "http://ent-mmi.site/reset&token=" . $token . "\n\n";
+    $email_content .= "http://ent-mmi.site/reset?token=" . $token . "\n\n";
     $email_content .= "Si vous n'avez pas demandé la réinitialisation, ignorez cet e-mail.\n";
     
     $email_headers = "From: ent <no-reply@ent-mmi.site>";

@@ -14,6 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($user && password_verify($password, $user["mot_de_passe"])) {
         $_SESSION["login"] = $user["login"];
         $_SESSION["prenom"] = $user["prenom_utilisateur"];
+        $_SESSION["nom"] = $user["nom_utilisateur"];
+        $_SESSION["class"] =$user["classe_id"];
         $_SESSION["role"] = $user["role"];
         header('Location: /dashboard');
         exit();

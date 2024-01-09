@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $message = 'Erreur : cet utilisateur existe déjà.';
     } else {
         
-        $createResult = $userModel->createUser($prenom, $nom, $login, $role, $password, $email, $class);
+        $createResult = $userModel->createUser($prenom, $nom, $login, $password, $email, $role, $class);
         $message = $createResult;
     }
 }
