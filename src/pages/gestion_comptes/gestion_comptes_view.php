@@ -57,6 +57,9 @@
             <label for="role">Statut</label>
             <input type="texte" name="role" id="role" required>
 
+            <label for="class">Classe</label>
+            <input type="text" name="class" id="class">
+
 
             <input type="submit" value="Créer">
         

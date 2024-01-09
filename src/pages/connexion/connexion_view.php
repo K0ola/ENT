@@ -24,7 +24,7 @@
                     <input type="password" name="password" id="password" required>
                     <img src="src/assets/not-visible.png" alt="Toggle Visibility" onclick="psswrdvisible()">
                 </div>
-                <a href="index.php?p=mdp-forget">Mot de passe oublié ?</a>
+                <a href="/mdp-forget">Mot de passe oublié ?</a>
                 <input type="submit" value="Connexion" id="btn_connexion">
             </form>
         </div>

@@ -42,7 +42,7 @@ class UserModel {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function createUser($prenom, $nom, $login, $role, $password, $email, $class) {
+    public function createUser($prenom, $nom, $login, $password, $email, $role, $class) {
         $stmt = $this->db->prepare("SELECT * FROM utilisateurs WHERE login = ?");
         $stmt->execute([$login]);
 
@@ -50,9 +50,9 @@ class UserModel {
             return "Erreur : cet utilisateur existe déjà.";
         } else {
             try {
-                $sql = "INSERT INTO utilisateurs (prenom_utilisateur, nom_utilisateur, login, role_utilisateur, mot_de_passe, mail_utilisateur, classe_utilisateur) VALUES (?, ?, ?, ?, ?, ?, ?)";
+                $sql = "INSERT INTO utilisateurs (prenom_utilisateur, nom_utilisateur, login, role_utilisateur, mot_de_passe, mail_utilisateur, classe_id) VALUES (?, ?, ?, ?, ?, ?, ?)";
                 $stmt = $this->db->prepare($sql);
-                $stmt->execute([$prenom, $nom, $login, $role, $password, $email]);
+                $stmt->execute([$prenom, $nom, $login, $role, $password, $email, $class]);
                 return "Nouvel utilisateur créé avec succès.";
             } catch (PDOException $e) {
                 return "Erreur : " . $e->getMessage();
