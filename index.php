@@ -40,7 +40,7 @@ switch ($page) {
         require_once('src/pages/reset_mdp/reset_mdp_controller.php');
         break;
 
-    case 'actualites':
+    case 'actualite':
         require_once('src/pages/actualite/actualite_controller.php');
         break;
 
