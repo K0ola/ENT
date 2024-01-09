@@ -1,6 +1,38 @@
 nav {
 
     display: grid;
+    /* grid-template-rows: repeat(3, fit-content(100%)) 1fr fit-content(100%);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "h"
+        "r"
+        "n"
+        "."
+        "f"; */
+    padding: var(--Padding-S);
+
+    background-color: var(--Couleur-1);
+    border-radius: var(--Rad-S);
+
+    
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    height: 64px;
+    z-index: 1000;
+    width: 64px;
+
+    font-size: var(--nav);
+    transition: 0.3s;
+}
+
+.ouvert {
+    height: 50vh;
+    width: 98vw;
+}
+
+.Nav_Menu {
+    display: none;
     grid-template-rows: repeat(3, fit-content(100%)) 1fr fit-content(100%);
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -10,27 +42,17 @@ nav {
         "."
         "f";
     gap: var(--Gap-XL);
-    padding: var(--Padding-S);
+}
 
-    background-color: var(--Couleur-1);
-    border-radius: var(--Rad-S);
-
-    
-    position: fixed;
-    top: 1vh;
-    left: 1vh;
-    height: 98vh;
-    z-index: 1000;
-    width: 200px;
-
-    font-size: var(--nav);
+.ouvert > .Nav_Menu {
+    display: grid;
 }
 
 nav a {
     color: var(--Text-1);
 }
 
-nav > header {
+.Nav_Menu > header {
     grid-area: h;
 
     display: flex;
@@ -55,7 +77,7 @@ nav hr {
     border-radius: 1px;
 }
 
-nav > section {
+.Nav_Menu > section {
     grid-area: n;
 
     display: flex;
@@ -63,7 +85,7 @@ nav > section {
     gap: var(--Gap-S);
 }
 
-nav > footer {
+.Nav_Menu > footer {
     grid-area: f;
 
     display: flex;
@@ -96,4 +118,33 @@ nav > footer {
 
 @media (min-width: 700px) {
 
+    nav {
+        display: block;
+
+        top: 1vh;
+        left: 1vh;
+        height: 98vh;
+        width: 200px;
+
+        margin: 0px;
+    }
+
+    .BurgerIcon {
+        display: none;
+    }
+
+    .Nav_Menu {
+        display: grid;
+        grid-template-rows: repeat(3, fit-content(100%)) 1fr fit-content(100%);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "r"
+            "n"
+            "."
+            "f";
+        gap: var(--Gap-XL);
+
+        height: 100%;
+    }
 }

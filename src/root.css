@@ -77,7 +77,6 @@
 
 body{
     margin: 0;
-    padding-left: 270px;
     font-family: var(--main-font);
     color: var(--Text-1);
     background: var(--Fond-Body);
@@ -152,4 +151,10 @@ body{
 
 .noDeco {
     text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding-left: 230px;
+    }
 }
