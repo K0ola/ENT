@@ -1,0 +1,226 @@
+.Tropical-Blue {
+
+    /*? Palette de couleur */
+
+    --0: #F8F8F8;
+    --50: #EFF8FF;
+    --100: #CFEAFF;
+    --200: #B8E4FF;
+    --300: #79CFFF;
+    --400: #32B7FE;
+    --500: #079FF0;
+    --600: #007ECE;
+    --700: #0065A6;
+    --800: #035589;
+    --900: #094771;
+    --950: #062C4B;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Pippin {
+
+    --0: #F8F8F8;
+    --50: #FEF2F2;
+    --100: #FFE0E0;
+    --200: #FFC8C8;
+    --300: #FFA2A2;
+    --400: #FD6C6C;
+    --500: #F53E3E;
+    --600: #E32020;
+    --700: #BF1616;
+    --800: #9D1717;
+    --900: #831A1A;
+    --950: #470808;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Beryl-Green {
+
+    --0: #f8f8f8;
+    --50: #F4F9EC;
+    --100: #E0EEC9;
+    --200: #D0E6B0;
+    --300: #B2D581;
+    --400: #95C15A;
+    --500: #77A63C;
+    --600: #5B842C;
+    --700: #476526;
+    --800: #3B5123;
+    --900: #334621;
+    --950: #19250E;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Amour {
+
+    --0: #F8F8F8;
+    --50: #FCEFFF;
+    --100: #FAE8FF;
+    --200: #F5D0FE;
+    --300: #F0ABFC;
+    --400: #E779F9;
+    --500: #D846EF;
+    --600: #BF26D3;
+    --700: #A11CAF;
+    --800: #85198F;
+    --900: #6F1A75;
+    --950: #4A044E;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Derby {
+
+    --0: #F8F8F8;
+    --50: #FFF7ED;
+    --100: #FFEBD1;
+    --200: #FED6AA;
+    --300: #FDB974;
+    --400: #FB913C;
+    --500: #F97216;
+    --600: #EA570C;
+    --700: #C2400C;
+    --800: #9A3312;
+    --900: #7C2C12;
+    --950: #431407;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Silver-Rust {
+
+    --0: #F8F8F8;
+    --50: #F9F8F7;
+    --100: #F2EFEE;
+    --200: #E8E3E0;
+    --300: #D6CFCB;
+    --400: #C3B8B2;
+    --500: #A5968E;
+    --600: #8D7D75;
+    --700: #756760;
+    --800: #635751;
+    --900: #554C47;
+    --950: #2C2623;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--0);
+    --Fond-2: var(--50);
+
+    --Couleur-1: var(--200);
+    --Couleur-2: var(--500);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--700);
+    --Headling: var(--950);
+
+    --Text-1: var(--Noir);
+    --Text-2: var(--Blanc);
+
+}
+
+.Lucky-Point {
+
+    --0: #F8F8F8;
+    --50: #F3F4FF;
+    --100: #E9EBFE;
+    --200: #D7DCFD;
+    --300: #B6BBFC;
+    --400: #8D91F8;
+    --500: #625FF3;
+    --600: #4B3DEA;
+    --700: #3D2BD6;
+    --800: #3324B3;
+    --900: #2B1F93;
+    --950: #15105B;
+    --1000: #0a0824;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--1000);
+    --Fond-2: var(--950);
+
+    --Couleur-1: var(--800);
+    --Couleur-2: var(--600);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--100);
+    --Headling: var(--50);
+
+    --Text-1: var(--Blanc);
+    --Text-2: var(--Noir);
+
+}
