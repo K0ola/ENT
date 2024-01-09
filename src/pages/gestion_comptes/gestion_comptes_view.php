@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/root.css">
+    <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/gestion_comptes/styles/gestion_comptes.css">
     <title>Gestionnaire de comptes</title>
 </head>
-<body>
+<body class="Tropical-Blue">
     <a href="/dashboard">Retour au dashboard</a>
     <h1>Gestionnaire de comptes</h1>
     

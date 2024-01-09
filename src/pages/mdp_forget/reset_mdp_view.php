@@ -7,7 +7,7 @@
     <title>Réinitialiser le mot de passe</title>
     <link rel="stylesheet" href="../../styles/root.css">
 </head>
-<body>
+<body class="Tropical-Blue">
     <h1>Réinitialiser le mot de passe</h1>
     <form action="/reset" method="POST">
         <input type="hidden" name="token" value="<?php echo htmlspecialchars($_GET['token']); ?>">
