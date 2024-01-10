@@ -1,6 +1,7 @@
 <?php session_start()?>
 
 <link rel="stylesheet" href="src/layout/styles/nav.css">
+
 <script src="src/layout/script/theme.js"></script>
 <nav class="txt_nav">
     <img class="Icon_Big BurgerIcon" src="src/assets/icon/Menu.svg" alt="Menu"/>
