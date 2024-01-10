@@ -43,6 +43,10 @@ section {
     height: 614px;
 }
 
+#Outils {
+    height: fit-content;
+}
+
 #middle{
     display: flex;
     flex-direction: row;
@@ -69,20 +73,27 @@ section {
 .outils{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
-.outil img{
-    width: 50px;
+.outil img {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    background-color: var(--Fond-2);
 }
 
-.outil{
-    padding: 10px;
-}
-
-.outil a{
-    color: black;
-    text-decoration: none;
+.outil {
+    background: var(--Fond-Body);
+    width: 100px;
+    /* height: 130px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--Border);
+    overflow: hidden;
+    border-radius: var(--Rad-S);
 }
 
 @media (min-width: 800px) {
@@ -126,7 +137,7 @@ section {
     #Outils {
         grid-area: ou;
     
-        height: 230px;
+        height: fit-content;
     }
 
 }

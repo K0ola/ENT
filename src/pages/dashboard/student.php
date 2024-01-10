@@ -53,31 +53,31 @@
             <h2 class="Widget_Titre">Mes outils</h2>
         </a>
         <div class="outils">
-            <a class="outil" href="https://drive.google.com/drive/my-drive">
+            <a class="outil noDeco" href="https://drive.google.com/drive/my-drive">
                 <img src="src/assets/outils/google_drive.svg" alt="">
                 <p>Google Drive</p>
             </a>
-            <a class="outil" href="https://www.figma.com/jam">
+            <a class="outil noDeco" href="https://www.figma.com/jam">
                 <img src="src/assets/outils/figma.svg" alt="">
                 <p>Figjam</p>
             </a>
-            <a class="outil" href="https://www.notion.so/fr-fr">
+            <a class="outil noDeco" href="https://www.notion.so/fr-fr">
                 <img src="src/assets/outils/notion.svg" alt="">
                 <p>Notion</p>
             </a>
-            <a class="outil" href="https://elearning.univ-eiffel.fr/">
+            <a class="outil noDeco" href="https://elearning.univ-eiffel.fr/">
                 <img src="src/assets/outils/Univ_eiffel.svg" alt="">
                 <p>E-learning</p>
             </a>
-            <a class="outil" href="https://edt.univ-eiffel.fr/direct/index.jsp?login=visuedt&password=visuedt">
+            <a class="outil noDeco" href="https://edt.univ-eiffel.fr/direct/index.jsp?login=visuedt&password=visuedt">
                 <img src="src/assets/outils/Calendar-days.svg" alt="">
                 <p>Emploi du temps ADE</p>
             </a>
-            <a class="outil" href="https://pix.fr/">
+            <a class="outil noDeco" href="https://pix.fr/">
                 <img src="src/assets/outils/pix.svg" alt="">
                 <p>PIX</p>
             </a>
-            <a class="outil" href="https://www.projet-voltaire.fr/">
+            <a class="outil noDeco" href="https://www.projet-voltaire.fr/">
                 <img src="src/assets/outils/Pencil.svg" alt="">
                 <p>Projet Voltaire</p>
             </a>
