@@ -32,7 +32,7 @@
 
     /** Radius */
 
-  --Rad-XXS: 4px;
+    --Rad-XXS: 4px;
 	--Rad-XS: 8px;
 	--Rad-S: 16px;
 	--Rad-M: 24px;
@@ -50,8 +50,8 @@
     /** Gap  */
 
 
-  --Gap-XS: 6px;
-  --Gap-S: 12px;
+    --Gap-XS: 6px;
+    --Gap-S: 12px;
 	--Gap-M: 18px;
 	--Gap-L: 24px;
 	--Gap-XL: 30px;
@@ -114,6 +114,8 @@ body{
 .txt_h1 {
     font-size: var(--h1);
     font-weight: 900;
+
+    color: var(--Headling);
 }
 
 .txt_h2 {
@@ -154,6 +156,17 @@ body{
 .noDeco {
     text-decoration: none;
 
+}
+
+.input {
+    border-radius: var(--Rad-XS);
+    border: 1px solid var(--Border);
+    padding: var(--Padding-XS) var(--Padding-S);
+    font-size: var(--micro);
+    color: var(--Noir-90);
+    background-color: var(--Blanc);
+    width: 100%;
+    height: 32px;
 }
 
 @media (min-width: 700px) {

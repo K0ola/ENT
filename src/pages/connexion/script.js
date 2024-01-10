@@ -4,9 +4,9 @@ function psswrdvisible() {
     
     if (passwordInput.type === 'password') {
         passwordInput.type = 'text';
-        toggleButton.src = './src/assets/visible.png';
+        toggleButton.src = './src/assets/icon/Eye.svg';
     } else {
         passwordInput.type = 'password';
-        toggleButton.src = './src/assets/not-visible.png';
+        toggleButton.src = './src/assets/icon/Eye-off.svg';
     }
 }

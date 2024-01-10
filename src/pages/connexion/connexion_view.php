@@ -13,25 +13,31 @@
 <body class="Tropical-Blue">
     <section id="connexion">
         <header>
-            <h1>Connexion</h1>
-            <!-- <img src="" alt="Logo"> -->
+            <img src="src/assets/Logo_Universite.svg" alt="Logo de l'université"/>
+            <h1 class="txt_h1">ENT MMI - Champs sur Marne</h1>
+            <!-- <h1 class="txt_h1">Connexion</h1> -->
         </header>
-        <div>
+        <article>
+            <p>Etudiants, enseignants, intervenants, personnel administratif, bienvenu sur votre enironnement numérique de travail MMI !</p>
             <form action="/connexion" method="POST">
-                <div>
-                    <label for="login">Identifiant</label>
-                    <input type="text" name="login" id="login" required>
+                <div class="div_form">
+                    <h2 class="txt_h2">Connexion</h2>
+                    <div>
+                        <label for="login" class="txt_bold">Identifiant</label>
+                        <input type="text" class="input" name="login" id="login" required>
+                    </div>
+                    <div id='mdp'>
+                        <label for="password" class="txt_bold">Mot de passe</label>
+                        <input type="password" class="input" name="password" id="password" required>
+                        <img src="src/assets/icon/Eye-off.svg" class="Icon_Medium" alt="Toggle Visibility" onclick="psswrdvisible()">
+                    </div>
+                    <a href="/mdp-forget" class="txt_micro">Mot de passe oublié ?</a>
                 </div>
-                <div id='mdp'>
-                    <label for="password">Mot de passe</label>
-                    <input type="password" name="password" id="password" required>
-                    <img src="src/assets/not-visible.png" alt="Toggle Visibility" onclick="psswrdvisible()">
-                </div>
-                <a href="/mdp-forget">Mot de passe oublié ?</a>
                 <input type="submit" value="Connexion" id="btn_connexion">
             </form>
-        </div>
+        </article>
     </section>
+    <script src="src/layout/script/theme.js"></script>
     <script src="src/pages/connexion/script.js"></script>
 </body>
 </html>
