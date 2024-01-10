@@ -112,7 +112,7 @@ body{
 /** Style texte */
 
 .txt_h1 {
-    font-size: var(--h1);
+    font-size: var(--h2);
     font-weight: 900;
 
     color: var(--Headling);
@@ -171,6 +171,12 @@ body{
 
 @media (min-width: 700px) {
     body {
-        padding-left: 230px;
+        padding-left: calc(200px + 1vw);
+    }
+}
+
+@media (min-width: 860px) {
+    .txt_h1 {
+        font-size: var(--h1);
     }
 }
