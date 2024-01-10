@@ -1,0 +1,25 @@
+.news{
+    width: 60%;
+    background-color: var(--Couleur-1);
+    margin: auto;
+}
+
+.news-1{
+    text-decoration: none;
+    color: black;
+}
+
+.news-1 img{
+    width: 100%;
+    border-radius: var(--Rad-M);
+    margin-top: 30px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
