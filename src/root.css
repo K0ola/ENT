@@ -13,7 +13,6 @@
 
 
     /** Couleur Primaire*/
-
     --Noir: #09090B;
     --Noir-90: #09090Be6;
     --Noir-70: #09090Bb3;
@@ -33,7 +32,7 @@
 
     /** Radius */
 
-    --Radius-XXS: 4px;
+  --Rad-XXS: 4px;
 	--Rad-XS: 8px;
 	--Rad-S: 16px;
 	--Rad-M: 24px;
@@ -50,11 +49,14 @@
 
     /** Gap  */
 
-    --Gap-XS: 6px;
-    --Gap-S: 12px;
+
+  --Gap-XS: 6px;
+  --Gap-S: 12px;
 	--Gap-M: 18px;
 	--Gap-L: 24px;
 	--Gap-XL: 30px;
+
+
 
 	--GapN-XS: -6px;
 	--GapN-S: -12px;
@@ -77,7 +79,6 @@
 
 body{
     margin: 0;
-    padding-left: 270px;
     font-family: var(--main-font);
     color: var(--Text-1);
     background: var(--Fond-Body);
@@ -152,4 +153,11 @@ body{
 
 .noDeco {
     text-decoration: none;
+
+}
+
+@media (min-width: 700px) {
+    body {
+        padding-left: 230px;
+    }
 }

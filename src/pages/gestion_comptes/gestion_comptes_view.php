@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/root.css">
+    <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/gestion_comptes/styles/gestion_comptes.css">
     <title>Gestionnaire de comptes</title>
 </head>
-<body>
+<body class="Tropical-Blue">
     <a href="/dashboard">Retour au dashboard</a>
     <h1>Gestionnaire de comptes</h1>
     
@@ -28,7 +29,25 @@
                     <tr>
                         <td><?php echo htmlspecialchars($row['nom_utilisateur']); ?></td>
                         <td><?php echo htmlspecialchars($row['login']); ?></td>
-                        <td><?php echo htmlspecialchars($row['classe_id']); ?></td>
+                        <td><?php if($row["classe_id"]){
+                            if($row["classe_id"] == 1){
+                                echo "MMI 1 | TP - A";
+                            } else if($row["classe_id"] == 2){
+                                echo "MMI 1 | TP - B";
+                            } else if($row["classe_id"] == 3){
+                                echo "MMI 1 | TP - C";
+                            } else if($row["classe_id"] == 4){
+                                echo "MMI 1 | TP - D";
+                            } else if($row["classe_id"] == 5){
+                                echo "MMI 2 | TP - A";
+                            } else if($row["classe_id"] == 6){
+                                echo "MMI 2 | TP - B";
+                            } else if($row["classe_id"] == 7){
+                                echo "MMI 2 | TP - C";
+                            } else if($row["classe_id"] == 8){
+                                echo "MMI 1 | TP - D";
+                            }
+                        }?></td>
                         <td><?php echo htmlspecialchars($row['role_utilisateur']); ?></td>
                         <td><a href="/gestion-comptes&id=<?php echo $row['id_utilisateur']; ?>">Supprimer</a></td>
                     </tr>
@@ -56,6 +75,9 @@
 
             <label for="role">Statut</label>
             <input type="texte" name="role" id="role" required>
+
+            <label for="class">Classe</label>
+            <input type="text" name="class" id="class">
 
 
             <input type="submit" value="Créer">

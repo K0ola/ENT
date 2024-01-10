@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/connexion/styles/connexion.css">
@@ -26,7 +27,7 @@
                     <input type="password" name="password" id="password" required>
                     <img src="src/assets/not-visible.png" alt="Toggle Visibility" onclick="psswrdvisible()">
                 </div>
-                <a href="index.php?p=mdp-forget">Mot de passe oublié ?</a>
+                <a href="/mdp-forget">Mot de passe oublié ?</a>
                 <input type="submit" value="Connexion" id="btn_connexion">
             </form>
         </div>
