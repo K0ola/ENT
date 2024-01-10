@@ -26,25 +26,36 @@ nav {
     transition: 0.3s;
 }
 
+.BurgerIcon {
+    grid-area: i;
+}
+
 .ouvert {
     height: 50vh;
     width: 98vw;
+
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: 1fr min-content;
+    grid-template-areas:
+        "m m"
+        ". i";
+
 }
 
 .Nav_Menu {
     display: none;
-    grid-template-rows: repeat(3, fit-content(100%)) 1fr fit-content(100%);
-    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, fit-content(100%));
+    grid-template-columns: 2fr 1fr;
     grid-template-areas:
-        "h"
-        "r"
-        "n"
-        "."
-        "f";
+        "h f"
+        "r r"
+        "n n";
     gap: var(--Gap-XL);
 }
 
 .ouvert > .Nav_Menu {
+    grid-area: m;
+
     display: grid;
 }
 
@@ -63,7 +74,7 @@ nav a {
 .Nav_profil {
     display: flex;
     align-items: center;
-    gap: var(--Gap-S);
+    gap: var(--Gap-XS);
 }
 
 .Nav_logOut {
@@ -79,18 +90,16 @@ nav hr {
 
 .Nav_Menu > section {
     grid-area: n;
-
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--Gap-S);
 }
 
 .Nav_Menu > footer {
     grid-area: f;
-
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -129,6 +138,14 @@ nav hr {
         margin: 0px;
     }
 
+    .ouvert {
+        height: 98vh;
+        width: 200px;
+    
+        grid-template-columns: 1fr;
+    
+    }
+
     .BurgerIcon {
         display: none;
     }
@@ -147,4 +164,15 @@ nav hr {
 
         height: 100%;
     }
+
+    .Nav_Menu > section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Nav_Menu > footer {
+        flex-direction: row;
+        align-items: center;
+    }
+
 }
