@@ -25,7 +25,7 @@ nav{
 }
 
 .ouvert {
-    height: 50vh;
+    height: 380px;
     width: 98vw;
 
     grid-template-columns: 1fr min-content;
