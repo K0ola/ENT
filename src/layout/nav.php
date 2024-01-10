@@ -6,7 +6,7 @@
     <div class="Nav_Menu">
         <header>
             <!-- <a href="/notifications"><img src="" alt="Notifications"></a> -->
-            <a href="/profil" class="Nav_profil noDeco"><img class="Icon_Larger" src="src/assets/user/user_icon.png"/><p><?= $_SESSION['prenom'] ?> <?= $_SESSION['nom'] ?></p></a>
+            <a href="/profil" class="Nav_profil noDeco"><img class="Icon_Larger" src="src/assets/user/user_icon.png"/><p><?= $_SESSION['prenom'] ?></p></a>
             <a href="src/logout.php" class="Nav_logOut">Déconnexion</a>
         </header>
         <hr/>

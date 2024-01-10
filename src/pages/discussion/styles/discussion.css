@@ -1,43 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
 .discussion-container {
     display: flex;
+    padding-left: var(--Padding-XL);
     height: 100vh;
 }
 
 .sidebar {
-    margin-left: 10px;
-    width: 25%;
-    border-right: 1px solid #ddd;
-    overflow-y: auto;
-    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content(100%) 1fr;
+    gap: var(--Gap-M);
+    width: 350px;
+    border-right: 1px solid var(--Border);
+    background-color: var(--Fond-Body);
+    padding: var(--Padding-M) var(--Padding-S);
+    padding-left: 0px;
 }
+
+.sidebar > div {
+    display: grid;
+    grid-template-rows: repeat(3,fit-content(100%));
+    gap: var(--Gap-M);
+}
+
 
 .conversation-list, .classmate-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: grid;
+    gap: var(--Gap-S);
 }
 
+.conversation-list h2{
+    color: var(--Sous-Titre);
+}
+
+
+.classmate-list h2 {
+    color: var(--Text-1-90);
+}
+
+
 .conversation, .classmate {
+    display: block;
     padding: 10px 15px;
     border-bottom: 1px solid #eee;
     cursor: pointer;
-}
-
-.conversation a, .classmate a {
     text-decoration: none;
-    color: #333;
+    color: var(--Text-1);
     font-weight: bold;
 }
 
+.classmate {
+    color: var(--Text-1-70);
+}
+
 .conversation:hover, .classmate:hover {
-    background-color: #f9f9f9;
+    background-color: var(--Fond-2);
 }
 
 .current-conversation {
@@ -91,11 +107,11 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #5cb85c;
-    color: white;
+    background-color: var(--Couleur-2);
+    color: var(--Text-1);
     cursor: pointer;
 }
 
 .message-form input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: var(--Couleur-1);
 }

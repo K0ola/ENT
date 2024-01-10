@@ -9,6 +9,10 @@
         <a href="/agenda" class="noDeco Widget_link">
             <h2 class="Widget_Titre">Agenda</h2>
         </a>
+
+        <div class="Widget_container">
+            <p>Fonctionnalité en développement</p>
+        </div>
     </article>
 
     <article class="Widget" id="Todoo">
@@ -18,6 +22,10 @@
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a>
+
+        <div class="Widget_container">
+            <p>Fonctionnalité en développement</p>
+        </div>
     </article>
 
     <article class="Widget" id="Cours">
@@ -27,6 +35,10 @@
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a>
+
+        <div class="Widget_container">
+            <p>Fonctionnalité en développement</p>
+        </div>
     </article>
 
     <article class="Widget" id="Absences">
@@ -36,6 +48,10 @@
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a>
+
+        <div class="Widget_container">
+            <p>Fonctionnalité en développement</p>
+        </div>
     </article>
         
     <article class="Widget" id="Notes">
@@ -46,6 +62,10 @@
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a>
+
+        <div class="Widget_container">
+            <p>Fonctionnalité en développement</p>
+        </div>
     </article>
 
     <article class="Widget" id="Outils">
@@ -92,18 +112,21 @@
         <a href="/actualite" class="noDeco Widget_link">
             <h2 class="Widget_Titre">Info universitaires</h2>
         </a>
-        <div class="news-1">
-            <img src="src/assets/image-news/serviette.jpg" alt="">
-            <div class="col">
-                <h4>Précarité menstruelle : Le Saviez vous ?</h4>
-                <p>30% des femmes en France ont été confrontées à la précarité menstruelle... </p>
+
+        <div class="Widget_container news">
+            <div class="news-1">
+                <img src="src/assets/image-news/serviette.jpg" alt="">
+                <div class="col">
+                    <h4>Précarité menstruelle : Le Saviez vous ?</h4>
+                    <p>30% des femmes en France ont été confrontées à la précarité menstruelle... </p>
+                </div>
             </div>
-        </div>
-        <div class="news-1">
-            <img src="src/assets/image-news/Bandeau.png" alt="">
-            <div class="col">
-                <h4>Conférence : Quelles poursuites d'études après mon Bac+3 ?</h4>
-                <p>Vous êtes en 3e année à l'Université et vous vous interrogez...</p>
+            <div class="news-1">
+                <img src="src/assets/image-news/Bandeau.png" alt="">
+                <div class="col">
+                    <h4>Conférence : Quelles poursuites d'études après mon Bac+3 ?</h4>
+                    <p>Vous êtes en 3e année à l'Université et vous vous interrogez...</p>
+                </div>
             </div>
         </div>
 
