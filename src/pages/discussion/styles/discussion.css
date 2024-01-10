@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.discussion-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    margin-left: 10px;
+    width: 25%;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.conversation-list, .classmate-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.conversation, .classmate {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.conversation a, .classmate a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.conversation:hover, .classmate:hover {
+    background-color: #f9f9f9;
+}
+
+.current-conversation {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-list {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.message {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.message-header {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.message-content {
+    font-size: 1em;
+}
+
+.message-date {
+    float: right;
+    color: #999;
+}
+
+.message-form {
+    margin-top: 15px;
+}
+
+.message-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.message-form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.message-form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
