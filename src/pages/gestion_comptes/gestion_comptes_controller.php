@@ -29,6 +29,11 @@ if (isset($_GET['id'])) {
 }
 
 $utilisateurs = $userModel->getAllUsers();
+$prenom = $_SESSION['prenom'];
+$nom = $_SESSION['nom'];
+$login = $_SESSION['login'];
+$role = $_SESSION['role'];
+$class = $_SESSION['class'];
 
 require_once('gestion_comptes_view.php');
 ?>

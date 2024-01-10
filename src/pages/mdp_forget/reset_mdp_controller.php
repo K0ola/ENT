@@ -1,6 +1,4 @@
 <?php
-
-
 session_start();
 require_once('src/model.php');
 $userModel = new UserModel();

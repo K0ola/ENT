@@ -1,49 +1,66 @@
-#discussion-box{
-    z-index: 999999999;
-    position: fixed;
-    border: solid red 1px;
-    width: 250px;
-    height: 500px;
+#discussion-box {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f3f5;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
 }
-#top-disc{
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #f1f1f1;
+
+
+#top-disc {
+    background-color: #007bff;
+    color: white;
     padding: 10px;
     text-align: center;
-    font-size: 1.5em;
-    height: 50px;
+    cursor: pointer;
 }
 
-#list-conversations{
-    height: 450px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-#list-conversations a{
+#list-conversations {
+    margin-left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+}
+
+#list-conversations a {
+    
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
     text-decoration: none;
-    color: black;
 }
 
-.hidden{
-    position: absolute;
-    bottom: -450px;
-    right: 10px;
-    transition: transform 0.5s ease-in-out;
+#list-conversations a:hover {
+    background-color: #e7e7e7;
 }
 
-.visible{
-    position: absolute;
-    bottom: -450px;
-    right: 10px;
-    transition: transform 0.5s ease-in-out;
-    transform: translate(0, -450px);
+.conversation-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name-last-message p {
+    margin: 0;
+}
+
+.last-message-date p {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 0;
 }

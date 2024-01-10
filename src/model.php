@@ -74,7 +74,7 @@ class UserModel {
     public function getUserByToken($token) {
         $stmt = $this->db->prepare("SELECT * FROM utilisateurs WHERE reset_token = ? AND token_expiry > NOW()");
         $stmt->execute([$token]);
-        return $stmt->fetch();
+        return $stmt->fetch(PDO::FETCH_ASSOC); 
     }
     
     public function resetPassword($token, $new_password) {
@@ -82,12 +82,101 @@ class UserModel {
         if ($user) {
             $new_password_hash = password_hash($new_password, PASSWORD_DEFAULT);
             $updateStmt = $this->db->prepare("UPDATE utilisateurs SET mot_de_passe = ?, reset_token = NULL, token_expiry = NULL WHERE reset_token = ?");
-            return $updateStmt->execute([$new_password_hash, $token]);
+            $success = $updateStmt->execute([$new_password_hash, $token]);
+            if ($success) {
+                return "Mot de passe réinitialisé avec succès.";
+            } else {
+                return "Erreur lors de la réinitialisation du mot de passe.";
+            }
         } else {
             return "Le lien de réinitialisation est invalide ou a expiré.";
         }
     }
     
+
+    public function getUsersByClass($classId) {
+        $requete = "SELECT * FROM utilisateurs WHERE classe_id = :classe_id";
+        $stmt = $this->db->prepare($requete);
+        $stmt->bindValue(':classe_id', $classId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getConversationsByUser($userId) {
+        $requete = "SELECT d.id_conv,
+                           u1.id_utilisateur AS user_member_1,
+                           u2.id_utilisateur AS user_member_2,
+                           CASE
+                               WHEN u1.id_utilisateur = :id_utilisateur THEN u2.prenom_utilisateur
+                               ELSE u1.prenom_utilisateur
+                           END AS prenom_autre_utilisateur,
+                           CASE
+                               WHEN u1.id_utilisateur = :id_utilisateur THEN u2.nom_utilisateur
+                               ELSE u1.nom_utilisateur
+                           END AS nom_autre_utilisateur
+                    FROM discussions d
+                    JOIN utilisateurs u1 ON u1.id_utilisateur = d.user_member_1
+                    JOIN utilisateurs u2 ON u2.id_utilisateur = d.user_member_2
+                    WHERE d.user_member_1 = :id_utilisateur OR d.user_member_2 = :id_utilisateur";
+        $stmt = $this->db->prepare($requete);
+        $stmt->bindValue(':id_utilisateur', $userId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+
+    public function getMessagesByConversation($conversationId) {
+        $requete = "SELECT m.id_message,
+                           m.message,
+                           m.date_message,
+                           m.user_id,
+                           u.prenom_utilisateur,
+                           u.nom_utilisateur
+                    FROM messages m
+                    JOIN utilisateurs u ON u.id_utilisateur = m.user_id
+                    WHERE m.conversation_id = :conversation_id
+                    ORDER BY m.date_message ASC";
+        $stmt = $this->db->prepare($requete);
+        $stmt->bindValue(':conversation_id', $conversationId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }    
+
+
+    public function checkConversationExists($userId, $camaradeId) {
+        $requete = "SELECT id_conv FROM discussions WHERE (user_member_1 = :user_id AND user_member_2 = :camarade_id) OR (user_member_1 = :camarade_id AND user_member_2 = :user_id)";
+        $stmt = $this->db->prepare($requete);
+        $stmt->bindValue(':user_id', $userId, PDO::PARAM_INT);
+        $stmt->bindValue(':camarade_id', $camaradeId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+        }
+
+        public function createMessage($userId, $conversationId, $message) {
+            try {
+                $sql = "INSERT INTO messages (user_id, conversation_id, message, date_message) VALUES (?, ?, ?, NOW())";
+                $stmt = $this->db->prepare($sql);
+                $stmt->execute([$userId, $conversationId, $message]);
+                return true;
+            } catch (PDOException $e) {
+                // Renvoyer le message d'erreur pour un débogage plus facile.
+                return "Erreur de base de données : " . $e->getMessage();
+            }
+        }
+        
+        
+        public function createConversation($user1, $user2) {
+            try {
+                $sql = "INSERT INTO discussions (user_member_1, user_member_2) VALUES (?, ?)";
+                $stmt = $this->db->prepare($sql);
+                $stmt->execute([$user1, $user2]);
+                return $this->db->lastInsertId();
+            } catch (PDOException $e) {
+                return "Erreur : " . $e->getMessage();
+            }
+        }
+        
+    
+    
+    
 }
-
-
