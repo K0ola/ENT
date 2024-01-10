@@ -49,9 +49,37 @@
         </div>
     </div>
 
-    <div id="bottom">
-        <div>
-            <h2>Mes outils</h2>
+    <div class="frame" id="bottom">
+        <h2>Mes outils</h2>
+        <div class="outils">
+            <a class="outil" href="https://drive.google.com/drive/my-drive">
+                <img src="src/assets/image-news/drive.png" alt="">
+                <p>Drive</p>
+            </a>
+            <a class="outil" href="https://www.figma.com/jam">
+                <img src="src/assets/image-news/figma.png" alt="">
+                <p>Figjam</p>
+            </a>
+            <a class="outil" href="https://www.notion.so/fr-fr">
+                <img src="src/assets/image-news/notion.png" alt="">
+                <p>Figjam</p>
+            </a>
+            <a class="outil" href="https://elearning.univ-eiffel.fr/">
+                <img src="src/assets/image-news/UGE.png" alt="">
+                <p>E-learning</p>
+            </a>
+            <a class="outil" href="https://edt.univ-eiffel.fr/direct/index.jsp?login=visuedt&password=visuedt">
+                <img src="src/assets/image-news/Calendar.png" alt="">
+                <p>ADE</p>
+            </a>
+            <a class="outil" href="https://pix.fr/">
+                <img src="src/assets/image-news/pix.svg" alt="">
+                <p>PIX</p>
+            </a>
+            <a class="outil" href="https://www.projet-voltaire.fr/">
+                <img src="src/assets/image-news/voltaire.png" alt="">
+                <p>Projet Voltaire</p>
+            </a>
         </div>
         <div>
             <h2>Mes raccourcis Drive</h2>
