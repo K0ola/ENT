@@ -62,7 +62,7 @@
             </a>
             <a class="outil" href="https://www.notion.so/fr-fr">
                 <img src="src/assets/image-news/notion.png" alt="">
-                <p>Figjam</p>
+                <p>Notion</p>
             </a>
             <a class="outil" href="https://elearning.univ-eiffel.fr/">
                 <img src="src/assets/image-news/UGE.png" alt="">

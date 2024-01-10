@@ -44,6 +44,10 @@ switch ($page) {
         require_once('src/pages/actualite/actualite_controller.php');
         break;
 
+    case 'outils':
+        require_once('src/pages/outils/outils_controller.php');
+        break;
+        
     case 'start_conversation':
         require_once('src/pages/discussion/start_conversation.php');
         break;
