@@ -28,8 +28,13 @@
     --Headling: var(--950);
 
     --Text-1: var(--Noir);
-    --Text-2: var(--Blanc);
 
+    --Text-1-90: var(--Noir-90);
+    --Text-1-70: var(--Noir-70);
+
+    --Text-2: var(--Blanc);
+    --Text-2-90: var(--Blanc-90);
+    --Text-2-70: var(--Blanc-70);
 }
 
 .Pippin {
@@ -60,7 +65,12 @@
     --Headling: var(--950);
 
     --Text-1: var(--Noir);
+    --Text-1-90: var(--Noir-90);
+    --Text-1-70: var(--Noir-70);
+
     --Text-2: var(--Blanc);
+    --Text-2-90: var(--Blanc-90);
+    --Text-2-70: var(--Blanc-70);
 
 }
 
@@ -92,7 +102,12 @@
     --Headling: var(--950);
 
     --Text-1: var(--Noir);
+    --Text-1-90: var(--Noir-90);
+    --Text-1-70: var(--Noir-70);
+
     --Text-2: var(--Blanc);
+    --Text-2-90: var(--Blanc-90);
+    --Text-2-70: var(--Blanc-70);
 
 }
 
@@ -124,8 +139,13 @@
     --Headling: var(--950);
 
     --Text-1: var(--Noir);
-    --Text-2: var(--Blanc);
 
+    --Text-1-90: var(--Noir-90);
+    --Text-1-70: var(--Noir-70);
+
+    --Text-2: var(--Blanc);
+    --Text-2-90: var(--Blanc-90);
+    --Text-2-70: var(--Blanc-70);
 }
 
 .Derby {
@@ -179,16 +199,22 @@
     --Fond-Body: var(--0);
     --Fond-2: var(--50);
 
-    --Couleur-1: var(--200);
-    --Couleur-2: var(--500);
+    --Couleur-1: var(--400);
+    --Couleur-2: var(--600);
 
-    --Border: var(--300);
+    --Border: var(--500);
 
     --Sous-Titre: var(--700);
     --Headling: var(--950);
 
     --Text-1: var(--Noir);
+
+    --Text-1-90: var(--Noir-90);
+    --Text-1-70: var(--Noir-70);
+
     --Text-2: var(--Blanc);
+    --Text-2-90: var(--Blanc-90);
+    --Text-2-70: var(--Blanc-70);
 
 }
 
@@ -221,6 +247,50 @@
     --Headling: var(--50);
 
     --Text-1: var(--Blanc);
+    --Text-1-90: var(--Blanc-90);
+    --Text-1-70: var(--Blanc-70);
+
     --Text-2: var(--Noir);
+    --Text-2-90: var(--Noir-90);
+    --Text-2-70: var(--Noir-70);
+
+}
+
+.Derby {
+
+    --0: #F8F8F8;
+    --50: #FFF7ED;
+    --100: #FFEBD1;
+    --200: #FED6AA;
+    --300: #FDB974;
+    --400: #FB913C;
+    --500: #F97216;
+    --600: #EA570C;
+    --700: #C2400C;
+    --800: #9A3312;
+    --900: #7C2C12;
+    --950: #431407;
+    --1000: #1b0803;
+
+    /*? Couleur de style */
+    --Fond-Body: var(--1000);
+    --Fond-2: var(--950);
+
+    --Couleur-1: var(--800);
+    --Couleur-2: var(--600);
+
+    --Border: var(--300);
+
+    --Sous-Titre: var(--100);
+    --Headling: var(--50);
+
+    --Text-1: var(--Blanc);
+    --Text-1-90: var(--Blanc-90);
+    --Text-1-70: var(--Blanc-70);
+
+    --Text-2: var(--Noir);
+    --Text-2-90: var(--Noir-90);
+    --Text-2-70: var(--Noir-70);
+
 
 }
