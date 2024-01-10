@@ -29,7 +29,25 @@
                     <tr>
                         <td><?php echo htmlspecialchars($row['nom_utilisateur']); ?></td>
                         <td><?php echo htmlspecialchars($row['login']); ?></td>
-                        <td><?php echo htmlspecialchars($row['classe_id']); ?></td>
+                        <td><?php if($row["classe_id"]){
+                            if($row["classe_id"] == 1){
+                                echo "MMI 1 | TP - A";
+                            } else if($row["classe_id"] == 2){
+                                echo "MMI 1 | TP - B";
+                            } else if($row["classe_id"] == 3){
+                                echo "MMI 1 | TP - C";
+                            } else if($row["classe_id"] == 4){
+                                echo "MMI 1 | TP - D";
+                            } else if($row["classe_id"] == 5){
+                                echo "MMI 2 | TP - A";
+                            } else if($row["classe_id"] == 6){
+                                echo "MMI 2 | TP - B";
+                            } else if($row["classe_id"] == 7){
+                                echo "MMI 2 | TP - C";
+                            } else if($row["classe_id"] == 8){
+                                echo "MMI 1 | TP - D";
+                            }
+                        }?></td>
                         <td><?php echo htmlspecialchars($row['role_utilisateur']); ?></td>
                         <td><a href="/gestion-comptes&id=<?php echo $row['id_utilisateur']; ?>">Supprimer</a></td>
                     </tr>
@@ -57,6 +75,9 @@
 
             <label for="role">Statut</label>
             <input type="texte" name="role" id="role" required>
+
+            <label for="class">Classe</label>
+            <input type="text" name="class" id="class">
 
 
             <input type="submit" value="Créer">

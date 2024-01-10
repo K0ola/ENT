@@ -40,5 +40,16 @@ switch ($page) {
         require_once('src/pages/reset_mdp/reset_mdp_controller.php');
         break;
 
+    case 'actualite':
+        require_once('src/pages/actualite/actualite_controller.php');
+        break;
+
+    case 'start_conversation':
+        require_once('src/pages/discussion/start_conversation.php');
+        break;
+
+    case 'send_message':
+        require_once('src/pages/discussion/send_message.php');
+        break;
 }
 ?>

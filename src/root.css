@@ -13,7 +13,6 @@
 
 
     /** Couleur Primaire*/
-
     --Noir: #09090B;
     --Noir-90: #09090Be6;
     --Noir-70: #09090Bb3;
@@ -33,7 +32,7 @@
 
     /** Radius */
 
-    --Rad-XXS: 4px;
+  --Rad-XXS: 4px;
 	--Rad-XS: 8px;
 	--Rad-S: 16px;
 	--Rad-M: 24px;
@@ -50,11 +49,12 @@
 
     /** Gap  */
 
-    --Gap-XS: 6px;
-    --Gap-S: 12px;
+  --Gap-XS: 6px;
+  --Gap-S: 12px;
 	--Gap-M: 18px;
 	--Gap-L: 24px;
 	--Gap-XL: 30px;
+
 
 	--GapN-XS: -6px;
 	--GapN-S: -12px;
@@ -157,4 +157,5 @@ body{
     body {
         padding-left: 230px;
     }
+
 }
