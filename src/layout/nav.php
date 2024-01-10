@@ -1,8 +1,6 @@
 <?php session_start()?>
 
 <link rel="stylesheet" href="src/layout/styles/nav.css">
-
-<script src="src/layout/script/theme.js"></script>
 <nav class="txt_nav">
     <img class="Icon_Big BurgerIcon" src="src/assets/icon/Menu.svg" alt="Menu"/>
     <div class="Nav_Menu">
@@ -30,7 +28,7 @@
                 <a href=\"/vie-scolaire\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Graduation-cap.svg\" alt=\"\"/>Vie scolaire</a>\n
                 <a href=\"/outils\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Layout-list.svg\" alt=\"\"/>Outils</a>\n
                 <a href=\"/cours\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Book-marked.svg\" alt=\"\"/>Cours</a>\n
-                <a href=\"/actualité\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Megaphone.svg\" alt=\"\"/>Actualité</a>\n
+                <a href=\"/actualite\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Megaphone.svg\" alt=\"\"/>Actualité</a>\n
                 ";
             }
             ?>
@@ -43,3 +41,4 @@
     </div>
 </nav>
 <script src="src/layout/script/burger.js"></script>
+<script src="src/layout/script/theme.js"></script>
