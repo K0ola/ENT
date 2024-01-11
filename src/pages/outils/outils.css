@@ -1,0 +1,105 @@
+main {
+    display: grid;
+    padding: var(--Padding-XL);
+    gap: var(--Gap-XL);
+}
+
+.sect {
+    display: grid;
+    grid-template-rows: fit-content(100%) 1fr;
+    align-items: start;
+    gap: var(--Gap-S);
+    width: 100%;
+    height: fit-content;
+
+    padding: var(--Padding-M);
+    border-radius: var(--Rad-M);
+    
+    background-color: var(--Fond-2);
+    border: 1px solid var(--Border);
+}
+
+.outils{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.outil img, .outil svg {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    background-color: var(--Fond-2);
+}
+
+.outil {
+    background: var(--Fond-Body);
+    width: 100px;
+    height: 160px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--Border);
+    overflow: hidden;
+    border-radius: var(--Rad-S);
+}
+
+.outil p {
+    padding: var(--Padding-XS);
+    height: 32px;
+    text-align: center;
+    color: var(--Text-1);
+}
+
+.favoriButton {
+    position: relative;
+    right: -40px;
+    top: -130px;
+    height: 24px;
+    width: 24px;
+    background: none;
+    border: none;
+}
+
+.favoriButton svg {
+    height: 24px;
+    width: 24px;
+    padding: 0px;
+    background: none;
+}
+
+.favoriButton svg path {
+    stroke: var(--Border);
+}
+
+#favorisSection .favoriButton svg path {
+    fill: var(--Headling);
+    stroke: var(--Headling);
+}
+
+@media (min-width: 600px) {
+    .outil img, .outil svg {
+        width: 130px;
+        padding: 25px 40px;
+    }
+    
+    .outil {
+        width: 130px;
+    }
+
+    .favoriButton {
+        position: relative;
+        right: -40px;
+        top: -130px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .favoriButton svg {
+        height: 24px;
+        width: 24px;
+        padding: 0px;
+        background: none;
+    }
+}

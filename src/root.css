@@ -88,6 +88,14 @@ body{
     stroke: var(--Text-1);
 }
 
+.Icon_2 path {
+    stroke: var(--Headling);
+}
+
+.Icon_2_fill path {
+    fill: var(--Headling);
+}
+
 .Icon_Small {
     height: 16px;
     width: 16px;

@@ -13,7 +13,7 @@
 <body class="Tropical-Blue">
     
     <script src="src/layout/script/theme.js"></script>
-    <?php require_once('src/layout/nav.php'); ?><!DOCTYPE html>
+    <?php require_once('src/layout/nav.php'); ?>
 
     <div class="dashboard-container">
         
