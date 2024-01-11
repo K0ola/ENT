@@ -14,4 +14,6 @@ $login = $_SESSION['login'];
 $role = $_SESSION['role'];
 $class = $_SESSION['class'];
 
-require_once('profil_view.php');
+require_once('parametre_view.php');
+
+?>

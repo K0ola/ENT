@@ -20,8 +20,8 @@ switch ($page) {
         require_once('src/pages/gestion_comptes/gestion_comptes_controller.php');
         break;
 
-    case 'profil':
-        require_once('src/pages/profil/profil_controller.php');
+    case 'parametre':
+        require_once('src/pages/parametre/parametre_controller.php');
         break;
     
     case 'discussion':
