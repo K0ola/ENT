@@ -39,7 +39,7 @@ section {
     color: var(--Sous-Titre);
 }
 
-.Widget svg > path {
+.Widget_link svg > path {
     stroke: var(--Sous-Titre);
 }
 
