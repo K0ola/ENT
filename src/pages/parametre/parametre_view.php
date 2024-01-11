@@ -15,8 +15,8 @@
     <script src="src/layout/script/theme.js"></script>
     <?php require_once('src/layout/nav.php'); ?>
 
-    <a href="/parametre?view=profil">profil</a>
-    <a href="/parametre?view=param">Paramètres</a>
+    <a href="/profil">profil</a>
+    <a href="/parametre">Paramètres</a>
 
     <main>
 

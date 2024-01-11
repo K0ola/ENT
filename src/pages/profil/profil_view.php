@@ -17,6 +17,9 @@
     <script src="src/layout/script/theme.js"></script>
     <?php require_once('src/layout/nav.php'); ?>
 
+    <a href="/profil">profil</a>
+    <a href="/parametre">Paramètres</a>
+
     <section class="row">
         <div class="col-12">
         <h1>Mon Profil</h1>
