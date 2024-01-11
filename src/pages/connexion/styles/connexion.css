@@ -1,6 +1,32 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+#background{
+  background-image: url(../../../assets/Wallpaper_connexion.webp);
+  background-position: bottom right;
+  background-size: cover;
+}
+
+#connexion {
+  background: var(--Couleur-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--Gap-XL);
+
+  padding: var(--Padding-XL);
+}
+
 header {
-    text-align: center;
-    padding: var(--Padding-XL);
+  display: flex;
+  gap: var(--Gap-M);
+  padding: var(--Padding-XL) 0px;
+  flex-direction: column;
+  align-items: center;
 }
 
 header img {
@@ -10,31 +36,9 @@ header img {
     top: 20px;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--Gap-XL);
 
-    width: 80vw;
-    height: 80vh;
-    padding: var(--Padding-XL);
-    border: solid var(--Border) 1px;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-article p {
-  width: 60%;
-}
-
-
-#connexion article span {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    width: fit-content;
-    color: red;
+p {
+  width: 80%;
 }
 
 form {
@@ -44,7 +48,6 @@ form {
   text-align: center;
   width: 400px;
 
-  border-radius: var(--Rad-M);
   background-color: var(--Couleur-1);
   overflow: hidden;
 }
@@ -55,9 +58,8 @@ form {
   gap: var(--Gap-L);
 
   text-align: center;
-  padding: var(--Padding-M);
+  padding: var(--Padding-M) 0px;
   
-  border-radius: var(--Rad-M);
   background-color: var(--Couleur-1);
 }
 
@@ -86,17 +88,36 @@ form {
 
 #mdp > img {
     grid-area: i;
-
-    width: 30px;
     cursor: pointer;
 }
 
+.connexionBTN_container{
+  display: flex;
+  gap: var(--Gap-XS);
+  margin-left: auto;
+  width: 100%;
+  border-radius: var(--Rad-XS);
+  cursor: pointer;
+  padding: var(--Padding-S);
+  background-color: var(--Border);
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.connexionBTN_container:hover {
+  background-color: var(--Couleur-2);
+}
+
+.connexionBTN_container > div {
+  background: url(../../../assets/icon/Door-closed.svg);
+}
+
+.connexionBTN_container:hover > div {
+  background: url(../../../assets/icon/Door-open.svg);
+}
+
 #btn_connexion {
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    padding: 10px 30px;
-    background-color: var(--Couleur-2);
+  display: none;
 }
 
 .div_form a {
@@ -107,19 +128,26 @@ form {
   
 @media (max-width: 650px) {
 
-    #connexion article form {
+  body {
+    grid-template-columns: 1fr;
+  }
+  
+  #background{
+    display: none;
+  }
+
+    #connexion form {
       border:none;
       width: 100%;
       
     }
 
-    #connexion article {
+    #connexion {
       border: none;
       width: 100%;
-      height: fit-content;
     }
 
-    article p {
+    p {
       width: 100%;
     }
 
