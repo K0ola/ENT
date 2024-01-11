@@ -27,25 +27,13 @@
     <?php endif; ?>
 
     <ul>
-        <?php
-        // Récupérer la liste des cours depuis la base de données
-        $sql_cours = "SELECT id_cours, nom_cours, prof_cours, fichier_cours FROM cours";
-        $stmt_cours = $conn->query($sql_cours);
-        $cours = $stmt_cours->fetchAll(PDO::FETCH_ASSOC);
-
-        // Afficher les cours
-        foreach ($cours as $cours_item) :
-        ?>
             <li>
-                <?php echo $cours_item['nom_cours']; ?> (Professeur : <?php echo $cours_item['prof_cours']; ?>)
-                
                 <?php if ($_SESSION['role'] === 'student') : ?>
-                    <a href="src/cours/<?php echo $cours_item['nom_cours']; ?>/<?php echo $cours_item['fichier_cours']; ?>" download>
+                    <a href="src/cours/Production-Graphique.pdf" download>
                         Télécharger le cours (PDF)
                     </a>
                 <?php endif; ?>
             </li>
-        <?php endforeach; ?>
     </ul>
 
 </body>
