@@ -99,6 +99,7 @@
 
 .message-list {
     display: grid;
+    grid-template-rows: fit-content(100%);
     gap: var(--Gap-S);
     overflow-y: auto;
     padding: var(--Padding-S);
@@ -172,6 +173,22 @@
 
 .Hidden_conversation {
     display: none;
+}
+
+.interlocuteur .back {
+    display: flex;
+    background-color: var(--Couleur-1);
+    padding: var(--Padding-XS);
+    border-radius: var(--Rad-S);
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.back svg path {
+    stroke: var(--Sous-Titre);
 }
 
 @media (min-width: 700px) {
