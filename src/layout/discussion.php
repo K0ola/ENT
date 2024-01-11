@@ -28,7 +28,7 @@ $conversations = $userModel->getConversationsByUser($userId);
         </div>
         <div id="list-conversations">
             <?php foreach ($conversations as $conversation): ?>
-                <a class="txt_bold conversation" href="?conversation_id=<?php echo $conversation['id_conv']; ?>">
+                <a class="txt_bold conversation" href="/discussion?conversation_id=<?php echo $conversation['id_conv']; ?>">
                     <img class="Icon_Big profil_Pic"src="<?= $conversation['icon_autre_utilisateur'] ?>" loading="lazy"/>
                     <p><?php echo $conversation['prenom_autre_utilisateur'] . ' ' . $conversation['nom_autre_utilisateur']; ?></p>
                 </a>
