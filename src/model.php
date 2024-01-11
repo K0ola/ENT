@@ -99,7 +99,15 @@ class UserModel {
         $stmt = $this->db->prepare($requete);
         $stmt->bindValue(':classe_id', $classId, PDO::PARAM_INT);
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $tabclass = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        for ($i=0; $i < count($tabclass) ; $i++) {    
+
+            $tabclass[$i]["icon_user"] = $this->findProfileImagePath("src/assets/user/", $tabclass[$i]["login"], $tabclass[$i]["id_utilisateur"]);
+        }
+
+        return $tabclass;
     }
 
     public function getConversationsByUser($userId) {
@@ -113,7 +121,11 @@ class UserModel {
                            CASE
                                WHEN u1.id_utilisateur = :id_utilisateur THEN u2.nom_utilisateur
                                ELSE u1.nom_utilisateur
-                           END AS nom_autre_utilisateur
+                           END AS nom_autre_utilisateur,
+                           CASE
+                               WHEN u1.id_utilisateur = :id_utilisateur THEN u2.login
+                               ELSE u1.login
+                           END AS login_autre_utilisateur
                     FROM discussions d
                     JOIN utilisateurs u1 ON u1.id_utilisateur = d.user_member_1
                     JOIN utilisateurs u2 ON u2.id_utilisateur = d.user_member_2
@@ -121,7 +133,22 @@ class UserModel {
         $stmt = $this->db->prepare($requete);
         $stmt->bindValue(':id_utilisateur', $userId, PDO::PARAM_INT);
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $tabdiscus = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        for ($i=0; $i < count($tabdiscus) ; $i++) { 
+
+            $otherid = 0;
+
+            if ($tabdiscus[$i]["user_member_1"] == $userId) {
+                $otherid = $tabdiscus[$i]["user_member_2"];
+            } else {
+                $otherid = $tabdiscus[$i]["user_member_1"];
+            }        
+
+            $tabdiscus[$i]["icon_autre_utilisateur"] = $this->findProfileImagePath("src/assets/user/", $tabdiscus[$i]["login_autre_utilisateur"], $otherid);
+        }
+
+        return $tabdiscus;
     }
     
 
@@ -177,6 +204,16 @@ class UserModel {
         }
         
     
-    
+        public function findProfileImagePath($baseDir, $login, $userId) {
+            $extensions = ['jpg', 'png', 'jpeg', 'gif', 'webp'];
+            foreach ($extensions as $ext) {
+                $filePath = $baseDir . "pdp_user_" . $login . "_" . $userId . "." . $ext;
+                if (file_exists($filePath)) {
+                    return $filePath;
+                }
+            }
+            return "src/assets/user/user_icon.png"; // Assurez-vous que ce chemin vers l'image par défaut est correct
+        }
+        
     
 }

@@ -1,6 +1,5 @@
 .discussion-container {
     display: flex;
-    padding-left: var(--Padding-XL);
     height: 100vh;
 }
 
@@ -9,17 +8,28 @@
     grid-template-columns: 1fr;
     grid-template-rows: fit-content(100%) 1fr;
     gap: var(--Gap-M);
-    width: 350px;
+    width: 100%;
     border-right: 1px solid var(--Border);
     background-color: var(--Fond-Body);
     padding: var(--Padding-M) var(--Padding-S);
-    padding-left: 0px;
 }
 
 .sidebar > div {
     display: grid;
     grid-template-rows: repeat(3,fit-content(100%));
     gap: var(--Gap-M);
+    overflow-y: scroll;
+}
+
+.sidebar > div::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff00;
+}
+
+.sidebar > div::-webkit-scrollbar-thumb {
+    background: var(--Border);
+    border-radius: var(--Rond);
 }
 
 
@@ -39,21 +49,33 @@
 
 
 .conversation, .classmate {
-    display: block;
-    padding: 10px 15px;
-    border-bottom: 1px solid #eee;
+    display: grid;
+    grid-template-columns: fit-content(100%) 1fr;
+    gap: var(--Gap-XS);
     cursor: pointer;
     text-decoration: none;
     color: var(--Text-1);
-    font-weight: bold;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.conversation p, .classmate p {
+    padding: var(--Padding-S);
+    border-radius: var(--Rad-S);
+    background-color: var(--Fond-2);
+    transition: 0.3s;
 }
 
 .classmate {
     color: var(--Text-1-70);
 }
 
-.conversation:hover, .classmate:hover {
-    background-color: var(--Fond-2);
+.classmate p {
+    background-color: var(--Fond-Body);
+}
+
+.conversation:hover p, .classmate:hover p {
+    background-color: var(--Couleur-1);
 }
 
 .current-conversation {
@@ -61,25 +83,53 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.interlocuteur {
+    display: flex;
+    align-items: center;
+    padding-bottom: var(--Padding-S);
+    gap: var(--Gap-S);
+}
+
+.interlocuteur h2 {
+    color: var(--Sous-Titre);
 }
 
 .message-list {
+    display: grid;
+    gap: var(--Gap-S);
     overflow-y: auto;
+    padding: var(--Padding-S);
     flex-grow: 1;
 }
 
-.message {
-    background-color: #fff;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.message-list::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff00;
 }
 
-.message-header {
-    font-size: 0.9em;
-    margin-bottom: 5px;
-    color: #666;
+.message-list::-webkit-scrollbar-thumb {
+    background: var(--Border);
+    border-radius: var(--Rond);
+}
+
+.message {
+    display: grid;
+    gap: var(--Gap-S);
+    background-color: var(--Fond-2);
+    padding: var(--Padding-S) var(--Padding-M);
+    border-radius: var(--Rad-S);
+    max-width: 80%;
+    width: fit-content;
+}
+
+.message_D {
+    background-color: var(--Couleur-1);
+    margin-left: auto;
+    text-align: right;
 }
 
 .message-content {
@@ -87,8 +137,7 @@
 }
 
 .message-date {
-    float: right;
-    color: #999;
+    color: var(--Text-1-90);
 }
 
 .message-form {
@@ -114,4 +163,36 @@
 
 .message-form input[type="submit"]:hover {
     background-color: var(--Couleur-1);
+}
+
+.Hidden_Sidebar {
+    display: none;
+}
+
+.Hidden_conversation {
+    display: none;
+}
+
+@media (min-width: 700px) {
+
+    .discussion-container {
+        padding-left: var(--Padding-XL);
+    }
+
+    .Hidden_Sidebar {
+        display: grid;
+    }
+
+    .Hidden_conversation {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 400px;
+        padding-left: 0px;
+    }
+
+    .interlocuteur .back {
+        display: none;
+    }
 }

@@ -1,16 +1,5 @@
 <?php
 
-function findProfileImagePath($baseDir, $login, $userId) {
-    $extensions = ['jpg', 'png', 'jpeg', 'gif', 'webp'];
-    foreach ($extensions as $ext) {
-        $filePath = $baseDir . "pdp_user_" . $login . "_" . $userId . "." . $ext;
-        if (file_exists($filePath)) {
-            return $filePath;
-        }
-    }
-    return "src/assets/user/user_icon.png"; // Assurez-vous que ce chemin vers l'image par défaut est correct
-}
-
 if (isset($_SESSION["login"])) {
     header('Location: /dashboard');
 }
@@ -35,8 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION["role"] = $user["role"];
         $_SESSION["id_utilisateur"] = $user["id_utilisateur"];
 
-        
-        $_SESSION["icon_user"] = findProfileImagePath("src/assets/user/", $_SESSION['login'], $_SESSION['id_utilisateur']);
+        $_SESSION["icon_user"] = $userModel->findProfileImagePath("src/assets/user/", $_SESSION['login'], $_SESSION['id_utilisateur']);
 
         header('Location: /dashboard');
         exit();

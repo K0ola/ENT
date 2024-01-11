@@ -40,6 +40,7 @@ if ($selectedConversationId) {
     foreach ($conversations as $conversation) {
         if ($conversation['id_conv'] == $selectedConversationId) {
             $interlocutor = $conversation['prenom_autre_utilisateur'] . ' ' . $conversation['nom_autre_utilisateur'];
+            $icon_interlocutor = $conversation['icon_autre_utilisateur'];
             break;
         }
     }
