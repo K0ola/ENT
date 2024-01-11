@@ -47,6 +47,10 @@ switch ($page) {
     case 'outils':
         require_once('src/pages/outils/outils_controller.php');
         break;
+
+    case 'vie-scolaire':
+        require_once('src/pages/vie-scolaire/vie-scolaire_controller.php');
+        break;
         
     case 'start_conversation':
         require_once('src/pages/discussion/start_conversation.php');
@@ -54,6 +58,14 @@ switch ($page) {
 
     case 'send_message':
         require_once('src/pages/discussion/send_message.php');
+        break;
+
+    case 'notes':
+        require_once('src/pages/notes/note_controller.php');
+        break;
+
+    case 'cours':
+        require_once('src/pages/cours/cours_controller.php');
         break;
 }
 ?>

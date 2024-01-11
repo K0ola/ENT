@@ -22,6 +22,16 @@
                 <a href=\"/gestion-matieres\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Album.svg\" alt=\"\"/>Gestion matières</a>\n
                 ";
             } else if ($_SESSION['role'] === 'prof') {
+                echo "
+                <a href=\"/dashboard\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Home.svg\" alt=\"\"/>Accueil</a>\n
+                <a href=\"/agenda\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Calendar.svg\" alt=\"\"/>Agenda</a>\n
+                <a href=\"/discussion\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Messages-square.svg\" alt=\"\"/>Communication</a>\n
+                <a href=\"/notes\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Graduation-cap.svg\" alt=\"\"/>Notes</a>\n
+                <a href=\"/outils\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Layout-list.svg\" alt=\"\"/>Outils</a>\n
+                <a href=\"/cours\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Book-marked.svg\" alt=\"\"/>Cours</a>\n
+                <a href=\"/devoirs\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Book-marked.svg\" alt=\"\"/>Devoirs</a>\n
+                <a href=\"/actualité\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Megaphone.svg\" alt=\"\"/>Actualité</a>\n
+                ";
             } else if ($_SESSION['role'] === 'student') {
                 echo "
                 <a href=\"/dashboard\" class=\"noDeco Nav_link\"><img class=\"Icon_Large\" src=\"src/assets/icon/Home.svg\" alt=\"\"/>Accueil</a>\n
