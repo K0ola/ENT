@@ -20,6 +20,10 @@ switch ($page) {
         require_once('src/pages/gestion_comptes/gestion_comptes_controller.php');
         break;
 
+    case 'parametre':
+        require_once('src/pages/parametre/parametre_controller.php');
+        break;
+
     case 'profil':
         require_once('src/pages/profil/profil_controller.php');
         break;
@@ -44,12 +48,36 @@ switch ($page) {
         require_once('src/pages/actualite/actualite_controller.php');
         break;
 
+    case 'agenda':
+        require_once('src/pages/agenda/agenda_controller.php');
+        break;
+    
+    case 'vie-scolaire':
+        require_once('src/pages/vie_scolaire/vie_scolaire_controller.php');
+        break;
+    
+    case 'outils':
+        require_once('src/pages/outils/outils_controller.php');
+        break;
+    
+    case 'cours':
+        require_once('src/pages/cours/cours_controller.php');
+        break;
+    
+    case 'mentions-legales':
+        require_once('src/pages/mentions_legales/mentions_legales.php');
+        break;
+
     case 'start_conversation':
         require_once('src/pages/discussion/start_conversation.php');
         break;
 
     case 'send_message':
         require_once('src/pages/discussion/send_message.php');
+        break;
+
+    case 'upload-pdp':
+        require_once('src/pages/parametre/upload.php');
         break;
 }
 ?>

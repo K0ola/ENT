@@ -1,6 +1,5 @@
 const theme = ["Tropical-Blue", "Pippin", "Beryl-Green", "Amour", "Derby", "Silver-Rust", "Lucky-Point"];
 const body = document.querySelector("body");
-// const boxes = document.querySelectorAll(".themeBox");
 
 function changeTheme(name) {
     // let info = localStorage.getItem("theme");
@@ -31,14 +30,6 @@ function changeTheme(name) {
     localStorage.setItem("ENT_theme", name);
 }
 
-function check(id) {
-
-    for (let i = 0; i < boxes.length; i++) {
-        boxes[i].checked = false;
-    }
-
-    document.querySelector("#"+id).checked = true;
-}
 
 function loadTheme(){
 
@@ -65,20 +56,7 @@ function loadTheme(){
         nameTheme = info;
     }
 
-    // check(nameTheme);
     changeTheme(nameTheme);
 }
 
 loadTheme()
-
-// for(i=0; i< boxes.length; i++){
-//     let box = boxes[i];
-
-//     // on écoute le clic sur ces liens
-//     box.addEventListener('click' , () => {
-//         check(box.id);
-//         changeTheme(box.id);
-//     })
-// }
-
-// localStorage.setItem("ENT_theme", "sombre");

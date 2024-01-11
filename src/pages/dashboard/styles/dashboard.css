@@ -1,31 +1,76 @@
+.dashboard-container {
+    display: grid;
+    padding: var(--Padding-XL);
+    gap: var(--Gap-XL);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--Gap-L);
+}
+
+.Widget{
+    display: grid;
+    grid-template-rows: fit-content(100%) 1fr;
+    align-items: start;
+    gap: var(--Gap-S);
+    min-width: 260px;
+    width: 100%;
+    height: 295px;
+
+    padding: var(--Padding-M);
+    border-radius: var(--Rad-M);
+    
+    background-color: var(--Fond-2);
+    border: 1px solid var(--Border);
+}
+
+
+.Widget_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Widget_Titre {
+    font-size: var(--h4);
+    font-weight: 600;
+    color: var(--Sous-Titre);
+}
+
+.Widget svg > path {
+    stroke: var(--Sous-Titre);
+}
+
+.Widget_container {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.Widget_container::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff00;
+}
+
+.Widget_container::-webkit-scrollbar-thumb {
+    background: var(--Border);
+}
+
+#Agenda, #Actu {
+    height: 614px;
+}
+
+#Outils {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
 #middle{
     display: flex;
     flex-direction: row;
-    gap: 10px;
-}
-
-.frame{
-    border: solid 1px black;
-}
-
-.global{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.flex{
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    gap: 10px;
-}
-
-.flex-2{
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
     gap: 10px;
 }
 
@@ -41,37 +86,127 @@
     gap: 10px;
 }
 
-.frameuniv{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
 .news-1 img{
     width: 100px;
     border-radius: var(--Rad-M);
 }
 
-.col{
-    display: flex;
-    flex-direction: column;
-}
-
 .outils{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
-.outil img{
-    width: 50px;
+.outil img {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    background-color: var(--Fond-2);
 }
 
-.outil{
-    padding: 10px;
+.outil {
+    background: var(--Fond-Body);
+    width: 100px;
+    /* height: 130px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--Border);
+    overflow: hidden;
+    border-radius: var(--Rad-S);
 }
 
-.outil a{
-    color: black;
-    text-decoration: none;
+.outil p {
+    padding: var(--Padding-XS);
+    height: 32px;
+    text-align: center;
+    color: var(--Text-1);
+}
+
+@media (min-width: 800px) {
+
+    section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, fit-content(100%));
+        grid-template-areas: 
+            "ag td"
+            "ag ab"
+            "co no"
+            "ou ou"
+            "ac ac";
+    }
+
+    #Agenda {
+        grid-area: ag;
+    }
+    
+    #Todoo {
+        grid-area: td;
+    }
+    
+    #Cours {
+        grid-area: co;
+    }
+    
+    #Actu {
+        grid-area: ac;
+        height: 230px;
+    }
+    
+    #Absences {
+        grid-area: ab;
+    }
+    
+    #Notes {
+        grid-area: no;
+    }
+    
+    #Outils {
+        grid-area: ou;
+    
+        height: -webkit-fit-content;
+    
+        height: -moz-fit-content;
+    
+        height: fit-content;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+    section {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, fit-content(100%));
+        grid-template-areas: 
+            "ag td co"
+            "ag ab no"
+            "ou ou ou"
+            "ac ac ac";
+    }
+
+    .outil img {
+        width: 130px;
+        padding: 25px 40px;
+    }
+    
+    .outil {
+        width: 130px;
+    }
+}
+
+@media (min-width: 1380px) {
+    section {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, fit-content(100%));
+        grid-template-areas: 
+            "ag td co ac"
+            "ag ab no ac"
+            "ou ou ou ou";
+    }
+
+    #Actu {
+        height: 614px;
+    }
 }
