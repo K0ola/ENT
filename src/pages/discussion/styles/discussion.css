@@ -130,6 +130,7 @@
     background-color: var(--Couleur-1);
     margin-left: auto;
     text-align: right;
+    height: fit-content;
 }
 
 .message-content {

@@ -1,0 +1,89 @@
+
+  a {
+    color: #06c;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .matiere {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .matiere:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add additional styles below */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .day {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .time-slot {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  .nav-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-btn:hover {
+    background-color: #0056b3;
+  }
+  .matiere td {
+    padding: 10px; /* Ajoute un espace autour du contenu de chaque cellule */
+}
+
+.event-details {
+    margin-bottom: 15px; /* Ajoute un espace en dessous de chaque événement */
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+.event-cell {
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.event {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}

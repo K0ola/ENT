@@ -1,0 +1,4703 @@
+[
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1710832500,
+    "end": 1710839700,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709822700,
+    "end": 1709829900,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1707125400,
+    "end": 1707132600,
+    "location": [
+      "IUC 126",
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1705934700,
+    "end": 1705941900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1711377900,
+    "end": 1711385100,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1709037000,
+    "end": 1709044200,
+    "location": [
+      "IUC 027"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709814600,
+    "end": 1709821800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706625900,
+    "end": 1706633100,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1709018100,
+    "end": 1709025300,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1707810300,
+    "end": 1707815700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1705648500,
+    "end": 1705655700,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1705502700,
+    "end": 1705508100,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706877000,
+    "end": 1706884200,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710141300,
+    "end": 1710148500,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1709104500,
+    "end": 1709111700,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1705994100,
+    "end": 1706001300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1710322200,
+    "end": 1710329400,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1707290100,
+    "end": 1707297300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "start": 1708499700,
+    "end": 1708535700,
+    "location": [
+      "En distanciel"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1705408200,
+    "end": 1705415400,
+    "location": [
+      "IUC 024"
+    ]
+  },
+  {
+    "group": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "groupFormat": "CM",
+    "start": 1711542600,
+    "end": 1711557000,
+    "location": [
+      "IUC 121",
+      "IUC 120",
+      "IUC 022",
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710160200,
+    "end": 1710167400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1710754200,
+    "end": 1710761400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710927000,
+    "end": 1710934200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710937800,
+    "end": 1710945000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709104500,
+    "end": 1709111700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1709037000,
+    "end": 1709044200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1711629000,
+    "end": 1711643400,
+    "location": [
+      "IUC Blaise Pascal"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709190900,
+    "end": 1709198100,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706272200,
+    "end": 1706279400,
+    "location": [
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709026200,
+    "end": 1709033400,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709736300,
+    "end": 1709743500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "start": 1708326900,
+    "end": 1708362900,
+    "location": [
+      "En distanciel"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1711445400,
+    "end": 1711452600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710408600,
+    "end": 1710415800,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710486900,
+    "end": 1710494100,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1711377900,
+    "end": 1711385100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1707211800,
+    "end": 1707217200,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1711437300,
+    "end": 1711444500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1705656600,
+    "end": 1705663800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1705675500,
+    "end": 1705682700,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1705667400,
+    "end": 1705674600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CERISIER Amélie",
+    "start": 1706518800,
+    "end": 1706526000,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1706013000,
+    "end": 1706020200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1705656600,
+    "end": 1705663800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1707317100,
+    "end": 1707324300,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1709641800,
+    "end": 1709649000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1707290100,
+    "end": 1707297300,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "GAMBETTE PHILIPPE",
+    "start": 1705483800,
+    "end": 1705491000,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1707309000,
+    "end": 1707316200,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1709822700,
+    "end": 1709829900,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "start": 1705321800,
+    "end": 1705329000,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1706704200,
+    "end": 1706711400,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1707395400,
+    "end": 1707402600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709728200,
+    "end": 1709735400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1705909500,
+    "end": 1705914900,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1705934700,
+    "end": 1705941900,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710832500,
+    "end": 1710839700,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1709026200,
+    "end": 1709033400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1705416300,
+    "end": 1705423500,
+    "location": [
+      "IUC 024"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1707395400,
+    "end": 1707402600,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1707136200,
+    "end": 1707143400,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710840600,
+    "end": 1710847800,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710149400,
+    "end": 1710156600,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710408600,
+    "end": 1710415800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1705926600,
+    "end": 1705933800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1704957300,
+    "end": 1704971700,
+    "location": [
+      "IUC 124/25",
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "code": "SAÉ 3.01",
+    "title": "Intégrer des interfaces",
+    "start": 1705043700,
+    "end": 1705050900,
+    "location": [
+      "IUC 123",
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712233800,
+    "end": 1712241000,
+    "location": [
+      "IUC 120",
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1706099400,
+    "end": 1706106600,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710168300,
+    "end": 1710175500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1705934700,
+    "end": 1705941900,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1710851400,
+    "end": 1710858600,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1709736300,
+    "end": 1709743500,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "BENBOUZID Bilel",
+    "code": "R3.04",
+    "title": "Cult. Num.",
+    "start": 1705311000,
+    "end": 1705316400,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710168300,
+    "end": 1710175500,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1705416300,
+    "end": 1705423500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1706107500,
+    "end": 1706114700,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709822700,
+    "end": 1709829900,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R3.05",
+    "title": "Strat. de Com.",
+    "start": 1705062600,
+    "end": 1705068000,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1709199000,
+    "end": 1709206200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1709622900,
+    "end": 1709630100,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "groupFormat": "CM",
+    "start": 1711524600,
+    "end": 1711539000,
+    "location": [
+      "IUC 121",
+      "IUC 123",
+      "IUC 022",
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1707298200,
+    "end": 1707305400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710149400,
+    "end": 1710156600,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1709728200,
+    "end": 1709735400,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1706021100,
+    "end": 1706028300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706877000,
+    "end": 1706884200,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1706866200,
+    "end": 1706873400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1710832500,
+    "end": 1710839700,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "start": 1708586100,
+    "end": 1708622100,
+    "location": [
+      "En distanciel"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1709304300,
+    "end": 1709311500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710160200,
+    "end": 1710167400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1707808500,
+    "end": 1707815700,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1711437300,
+    "end": 1711444500,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706539500,
+    "end": 1706546700,
+    "location": [
+      "IUC 020"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1707384600,
+    "end": 1707391800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706185800,
+    "end": 1706193000,
+    "location": [
+      "IUC 026"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1709217900,
+    "end": 1709225100,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712320200,
+    "end": 1712327400,
+    "location": [
+      "IUC 124/25",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710746100,
+    "end": 1710753300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1710235800,
+    "end": 1710243000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1707749100,
+    "end": 1707756300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1707827400,
+    "end": 1707834600,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706080500,
+    "end": 1706087700,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1709649900,
+    "end": 1709657100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709622900,
+    "end": 1709630100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1706531400,
+    "end": 1706538600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1709649900,
+    "end": 1709657100,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1705648500,
+    "end": 1705655700,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712061000,
+    "end": 1712068200,
+    "location": [
+      "IUC 123",
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1709814600,
+    "end": 1709821800,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1705915800,
+    "end": 1705923000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1706080500,
+    "end": 1706087700,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "DALLET Sylvie",
+    "start": 1719228600,
+    "end": 1719243000,
+    "location": [
+      "IUC 024",
+      "IUC 025",
+      "IUC 026",
+      "IUC 027",
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710168300,
+    "end": 1710175500,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706858100,
+    "end": 1706865300,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "BISTER Florence",
+    "start": 1705304700,
+    "end": 1705310100,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1706625900,
+    "end": 1706633100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1709286300,
+    "end": 1709291700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1709563500,
+    "end": 1709570700,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1706255100,
+    "end": 1706260500,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "start": 1710859500,
+    "end": 1710866700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1705494600,
+    "end": 1705500000,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709277300,
+    "end": 1709284500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712214000,
+    "end": 1712224800,
+    "location": [
+      "IUC 120",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706598900,
+    "end": 1706606100,
+    "location": [
+      "IUC 124/25",
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1706261400,
+    "end": 1706268600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1710495000,
+    "end": 1710502200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710400500,
+    "end": 1710407700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1707741000,
+    "end": 1707748200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1707222600,
+    "end": 1707229800,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1709631000,
+    "end": 1709638200,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710773100,
+    "end": 1710780300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1708950600,
+    "end": 1708957800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712300400,
+    "end": 1712311200,
+    "location": [
+      "IUC 120",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1706539500,
+    "end": 1706546700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1707403500,
+    "end": 1707410700,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706790600,
+    "end": 1706797800,
+    "location": [
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1705043700,
+    "end": 1705050900,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1707730200,
+    "end": 1707737400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "DALLET Sylvie",
+    "start": 1719210600,
+    "end": 1719225000,
+    "location": [
+      "IUC 024",
+      "IUC 025",
+      "IUC 026",
+      "IUC 027",
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1709209800,
+    "end": 1709217000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1706704200,
+    "end": 1706711400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710141300,
+    "end": 1710148500,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1711005300,
+    "end": 1711012500,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1706790600,
+    "end": 1706797800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1706539500,
+    "end": 1706546700,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "start": 1708672500,
+    "end": 1708708500,
+    "location": [
+      "En distanciel"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1710765000,
+    "end": 1710772200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1706798700,
+    "end": 1706805900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1707376500,
+    "end": 1707383700,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1705483800,
+    "end": 1705491000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1706866200,
+    "end": 1706873400,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1707117300,
+    "end": 1707124500,
+    "location": [
+      "IUC 126",
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1710486900,
+    "end": 1710494100,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1709555400,
+    "end": 1709562600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710918900,
+    "end": 1710926100,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710141300,
+    "end": 1710148500,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706088600,
+    "end": 1706095800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1709631000,
+    "end": 1709638200,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1706617800,
+    "end": 1706625000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "code": "SAÉ 3.01",
+    "title": "Intégrer des interfaces",
+    "start": 1705051800,
+    "end": 1705059000,
+    "location": [
+      "IUC 126",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1710314100,
+    "end": 1710321300,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706193900,
+    "end": 1706201100,
+    "location": [
+      "IUC 026"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1710746100,
+    "end": 1710753300,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710754200,
+    "end": 1710761400,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1711715400,
+    "end": 1711726200,
+    "location": [
+      "IUC 120",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1711024200,
+    "end": 1711031400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "start": 1708413300,
+    "end": 1708449300,
+    "location": [
+      "En distanciel"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706176800,
+    "end": 1706182200,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1706712300,
+    "end": 1706719500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1709112600,
+    "end": 1709119800,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1710246600,
+    "end": 1710253800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "NIEL ODILE",
+    "start": 1707749100,
+    "end": 1707756300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1709112600,
+    "end": 1709119800,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709803800,
+    "end": 1709811000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710427500,
+    "end": 1710434700,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710314100,
+    "end": 1710321300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706885100,
+    "end": 1706892300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1707222600,
+    "end": 1707229800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706866200,
+    "end": 1706873400,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710235800,
+    "end": 1710243000,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706280300,
+    "end": 1706287500,
+    "location": [
+      "IUC 020"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712041200,
+    "end": 1712052000,
+    "location": [
+      "IUC 120",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1705500900,
+    "end": 1705508100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709123400,
+    "end": 1709130600,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1709285400,
+    "end": 1709292600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710495000,
+    "end": 1710502200,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1710927000,
+    "end": 1710934200,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710322200,
+    "end": 1710329400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706107500,
+    "end": 1706114700,
+    "location": [
+      "IUC 024"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1709190900,
+    "end": 1709198100,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1705915800,
+    "end": 1705923000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1711445400,
+    "end": 1711452600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "NIEL ODILE",
+    "start": 1705329900,
+    "end": 1705337100,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1709199000,
+    "end": 1709206200,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710160200,
+    "end": 1710167400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1709622900,
+    "end": 1709630100,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1707827400,
+    "end": 1707834600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1705667400,
+    "end": 1705672800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1707896700,
+    "end": 1707902100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C"
+    ],
+    "groupFormat": "CM",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706280300,
+    "end": 1706287500,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1711456200,
+    "end": 1711463400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1705494600,
+    "end": 1705501800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709112600,
+    "end": 1709119800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710149400,
+    "end": 1710156600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1711369800,
+    "end": 1711377000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "DALLET Sylvie",
+    "start": 1719558000,
+    "end": 1719572400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709728200,
+    "end": 1709735400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709285400,
+    "end": 1709292600,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1706693400,
+    "end": 1706700600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710937800,
+    "end": 1710945000,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1709563500,
+    "end": 1709570700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1706002200,
+    "end": 1706009400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1707376500,
+    "end": 1707383700,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709814600,
+    "end": 1709821800,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1707317100,
+    "end": 1707324300,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1705926600,
+    "end": 1705933800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1710746100,
+    "end": 1710753300,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1706858100,
+    "end": 1706865300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1705321800,
+    "end": 1705329000,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710945900,
+    "end": 1710953100,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CERISIER Amélie",
+    "start": 1708939800,
+    "end": 1708947000,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1706712300,
+    "end": 1706719500,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "start": 1710851400,
+    "end": 1710858600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1710246600,
+    "end": 1710253800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1706685300,
+    "end": 1706692500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1709190900,
+    "end": 1709198100,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "start": 1705329900,
+    "end": 1705337100,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1711013400,
+    "end": 1711020600,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1707722100,
+    "end": 1707729300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709814600,
+    "end": 1709821800,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1706013000,
+    "end": 1706020200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1707903000,
+    "end": 1707910200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706607000,
+    "end": 1706612400,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710314100,
+    "end": 1710321300,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1710235800,
+    "end": 1710243000,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1711464300,
+    "end": 1711471500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1707395400,
+    "end": 1707402600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709803800,
+    "end": 1709811000,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1710333000,
+    "end": 1710340200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706272200,
+    "end": 1706279400,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1711445400,
+    "end": 1711452600,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1706002200,
+    "end": 1706009400,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1706088600,
+    "end": 1706095800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "Tranchina Thierry",
+    "start": 1709104500,
+    "end": 1709111700,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1709296200,
+    "end": 1709303400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706858100,
+    "end": 1706865300,
+    "location": [
+      "IUC 027"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709795700,
+    "end": 1709802900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1707722100,
+    "end": 1707729300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712127600,
+    "end": 1712138400,
+    "location": [
+      "IUC 120",
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1704870900,
+    "end": 1704885300,
+    "location": [
+      "IUC 158",
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710400500,
+    "end": 1710407700,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1707376500,
+    "end": 1707383700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CERISIER Amélie",
+    "start": 1705476600,
+    "end": 1705483800,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1709641800,
+    "end": 1709649000,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1707835500,
+    "end": 1707842700,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709123400,
+    "end": 1709128800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1705994100,
+    "end": 1706001300,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1707309000,
+    "end": 1707316200,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710927000,
+    "end": 1710934200,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1706693400,
+    "end": 1706700600,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1706617800,
+    "end": 1706625000,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1709018100,
+    "end": 1709025300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1707730200,
+    "end": 1707737400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1707230700,
+    "end": 1707237900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1705995900,
+    "end": 1706001300,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710322200,
+    "end": 1710329400,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1710859500,
+    "end": 1710866700,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1707816600,
+    "end": 1707823800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709018100,
+    "end": 1709025300,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710754200,
+    "end": 1710761400,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1706193900,
+    "end": 1706201100,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1711359000,
+    "end": 1711366200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706272200,
+    "end": 1706279400,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "DALLET Sylvie",
+    "start": 1719315000,
+    "end": 1719329400,
+    "location": [
+      "IUC 024",
+      "IUC 025",
+      "IUC 026",
+      "IUC 027",
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "TASSO Anne",
+    "start": 1707298200,
+    "end": 1707305400,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1706531400,
+    "end": 1706538600,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710746100,
+    "end": 1710753300,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1706107500,
+    "end": 1706114700,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1705909500,
+    "end": 1705914900,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "NIEL ODILE",
+    "start": 1711369800,
+    "end": 1711377000,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1710227700,
+    "end": 1710234900,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709199000,
+    "end": 1709206200,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1709717400,
+    "end": 1709724600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1711024200,
+    "end": 1711031400,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1709026200,
+    "end": 1709033400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1711611000,
+    "end": 1711625400,
+    "location": [
+      "IUC Blaise Pascal"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1706712300,
+    "end": 1706719500,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1706704200,
+    "end": 1706711400,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1707384600,
+    "end": 1707391800,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1705408200,
+    "end": 1705415400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1706021100,
+    "end": 1706028300,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706798700,
+    "end": 1706805900,
+    "location": [
+      "IUC 158"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710333000,
+    "end": 1710340200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710314100,
+    "end": 1710321300,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "code": "R4.01",
+    "title": "Anglais",
+    "start": 1710840600,
+    "end": 1710847800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1706253300,
+    "end": 1706260500,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1707816600,
+    "end": 1707823800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.",
+    "start": 1709045100,
+    "end": 1709052300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1709555400,
+    "end": 1709562600,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1711702800,
+    "end": 1711711800,
+    "location": [
+      "IUC 169"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1706685300,
+    "end": 1706692500,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1706774400,
+    "end": 1706788800,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "LEROY Alexandre",
+    "start": 1705561200,
+    "end": 1705604400,
+    "location": [
+      ""
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709728200,
+    "end": 1709735400,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1706858100,
+    "end": 1706865300,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1711437300,
+    "end": 1711444500,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "CHARPENTIER Gaelle",
+    "start": 1712147400,
+    "end": 1712154600,
+    "location": [
+      "IUC 123",
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1705051800,
+    "end": 1705059000,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709296200,
+    "end": 1709303400,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1708958700,
+    "end": 1708965900,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709112600,
+    "end": 1709119800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1711437300,
+    "end": 1711444500,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710765000,
+    "end": 1710772200,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1710227700,
+    "end": 1710234900,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709822700,
+    "end": 1709829900,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1706099400,
+    "end": 1706106600,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710341100,
+    "end": 1710348300,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "MOREIRA KATIA",
+    "start": 1709296200,
+    "end": 1709303400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1708958700,
+    "end": 1708965900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CONAN Emma",
+    "start": 1710840600,
+    "end": 1710847800,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BOUGEOIS Isabelle",
+    "start": 1710918900,
+    "end": 1710926100,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "TASSO Anne",
+    "start": 1711445400,
+    "end": 1711452600,
+    "location": [
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "start": 1709045100,
+    "end": 1709052300,
+    "location": [
+      "IUC 027"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709631000,
+    "end": 1709638200,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706531400,
+    "end": 1706538600,
+    "location": [
+      "IUC 026"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710945900,
+    "end": 1710953100,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1707230700,
+    "end": 1707237900,
+    "location": [
+      "IUC 022"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "CHARPENTIER Alexis",
+    "start": 1710322200,
+    "end": 1710329400,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "JAOUED-ABASSI Leyla",
+    "code": "R4.02",
+    "title": "Éco. & Droit Num.",
+    "start": 1705397400,
+    "end": 1705402800,
+    "location": [
+      "IUC Albert Einstein"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "POISSON FREDERIC",
+    "start": 1709104500,
+    "end": 1709111700,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1710419400,
+    "end": 1710426600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LAOUFI Fatima",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1706185800,
+    "end": 1706193000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "EPPSTEIN Renaud",
+    "start": 1709736300,
+    "end": 1709743500,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1709736300,
+    "end": 1709743500,
+    "location": [
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1704976200,
+    "end": 1704990600,
+    "location": [
+      "IUC 157",
+      "IUC 121"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "code": "- SAÉ 4",
+    "title": "Autonomie",
+    "start": 1706099400,
+    "end": 1706106600,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C",
+      "D"
+    ],
+    "groupFormat": "TD",
+    "trainer": "HOUZIAUX TONY",
+    "start": 1706877000,
+    "end": 1706882400,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LEROY Alexandre",
+    "start": 1707741000,
+    "end": 1707748200,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "LO HERVE",
+    "start": 1708950600,
+    "end": 1708957800,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1705673700,
+    "end": 1705680900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A"
+    ],
+    "groupFormat": "TP",
+    "trainer": "BERTHET Matthieu",
+    "start": 1710419400,
+    "end": 1710426600,
+    "location": [
+      "IUC 201"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "CONAN Emma",
+    "code": "R4.04",
+    "title": "Expression & Com.- AB",
+    "start": 1710254700,
+    "end": 1710261900,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "trainer": "DALLET Sylvie",
+    "start": 1719297000,
+    "end": 1719311400,
+    "location": [
+      "IUC 024",
+      "IUC 025",
+      "IUC 026",
+      "IUC 027",
+      "IUC 023"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "groupFormat": "CM",
+    "code": "SAE 3",
+    "title": "Autonomie",
+    "start": 1704889800,
+    "end": 1704904200,
+    "location": [
+      "IUC 124/25",
+      "IUC 157"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "start": 1711013400,
+    "end": 1711020600,
+    "location": [
+      "IUC 120"
+    ]
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "groupFormat": "TP",
+    "trainer": "NIEL ODILE",
+    "start": 1705926600,
+    "end": 1705933800,
+    "location": [
+      "IUC 124/25"
+    ]
+  },
+  {
+    "group": [
+      "C"
+    ],
+    "groupFormat": "TP",
+    "trainer": "LEROY Alexandre",
+    "start": 1710754200,
+    "end": 1710761400,
+    "location": [
+      "IUC 126"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1709209800,
+    "end": 1709217000,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "A",
+      "B"
+    ],
+    "groupFormat": "TD",
+    "trainer": "Tranchina Thierry",
+    "start": 1706261400,
+    "end": 1706268600,
+    "location": [
+      "IUC 123"
+    ]
+  },
+  {
+    "group": [
+      "D"
+    ],
+    "groupFormat": "TP",
+    "trainer": "\\n",
+    "code": "R4.03",
+    "title": "Design d'Expé.",
+    "start": 1707403500,
+    "end": 1707410700,
+    "location": [
+      "IUC 157"
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.week-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin: 0 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.current-day {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th {
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.timetable td {
+  vertical-align: top;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.today {
+  background-color: #e3f2fd;
+}
+
+.event {
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.time-slot {
+  font-size: 0.8em;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.details {
+  font-size: 0.8em;
+  margin-top: 5px;
+}

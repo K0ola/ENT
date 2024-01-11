@@ -8,6 +8,7 @@
     <article class="Widget" id="Agenda">
         <a href="/agenda" class="noDeco Widget_link">
             <h2 class="Widget_Titre">Agenda</h2>
+            <?php require_once('agenda.php'); ?>
         </a>
 
         <div class="Widget_container">
