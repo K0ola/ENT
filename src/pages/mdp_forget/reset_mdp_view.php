@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Réinitialiser le mot de passe</title>
     <link rel="stylesheet" href="../../styles/root.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
 </head>
 <body class="Tropical-Blue">
     <h1>Réinitialiser le mot de passe</h1>

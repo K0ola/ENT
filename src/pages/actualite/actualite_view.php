@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/pages/actualite/actualite.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Actualité</title>
 </head>
 <body class="Tropical-Blue">

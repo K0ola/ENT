@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/pages/dashboard/styles/dashboard.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Tableau de bord</title>
 </head>
 <body class="Tropical-Blue">

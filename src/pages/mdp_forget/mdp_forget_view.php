@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Mot de passe oublié</title>
     <link rel="stylesheet" href="../../styles/root.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
 </head>
 <body>
     <h1>Réinitialisation du mot de passe</h1>

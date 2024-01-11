@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/gestion_comptes/styles/gestion_comptes.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Gestionnaire de comptes</title>
 </head>
 <body class="Tropical-Blue">
