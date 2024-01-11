@@ -75,6 +75,7 @@
         src="https://www.instagram.com/bde_eiffel/">
         </iframe>
     </div>
+    <?php require_once 'src/layout/discussion.php'; ?>
     <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

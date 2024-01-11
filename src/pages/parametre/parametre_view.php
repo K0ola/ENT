@@ -74,6 +74,7 @@
     </main>
     
     <script src="src/layout/script/checktheme.js"></script>
+    <?php require_once 'src/layout/discussion.php'; ?>
     <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

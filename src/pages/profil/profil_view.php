@@ -55,6 +55,7 @@
             </form>
         </div>
     </section>
+    <?php require_once 'src/layout/discussion.php'; ?>
     <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

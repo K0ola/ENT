@@ -10,8 +10,11 @@
 	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Emploi du temps</title>
 </head>
-<body>
-    <?php require_once 'src/layout/nav.php'; ?>
+<body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
+    <?php require_once('src/layout/nav.php'); ?>
+
 <div class="container">
     <?php
     // Affichage des boutons de navigation entre les semaines avec le numéro de la semaine.
@@ -66,6 +69,7 @@
     ?>
 </div>
 
-    
+    <?php require_once 'src/layout/discussion.php'; ?>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

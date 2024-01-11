@@ -66,6 +66,7 @@ echo '</div>';
 
 foreach ($eventsByDay as $dayInfo) {
     echo "<div class='day'>" . $dayInfo['formattedDate'] . "</div>";
+    // echo "<div class='day'>" . $formattedDay = $jours[date('w', $currentDay)] . ' ' . date('d', $currentDay) . ' ' . $mois[date('n', $currentDay) - 1] . ' ' . date('Y', $currentDay); . "</div>";
     echo "<table class='timetable'>";
 
     // Trier les événements de la journée par heure de début
