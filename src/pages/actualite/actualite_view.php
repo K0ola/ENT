@@ -1,15 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/pages/actualite/actualite.css">
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
+    <link rel="stylesheet" href="src/layout/styles/nav.css">
+    <link rel="stylesheet" href="src/pages/actualite/actualite.css">
     <title>Actualité</title>
 </head>
-<body>
+<body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
     <?php require_once('src/layout/nav.php'); ?>
+
     <h1>Vos news de l’université</h1>
     <div class="news">
         <div class="news-1">
@@ -70,5 +75,6 @@
         src="https://www.instagram.com/bde_eiffel/">
         </iframe>
     </div>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

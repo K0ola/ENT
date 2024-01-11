@@ -1,52 +1,21 @@
-<?php session_start()?>
-<h1>Paramètres</h1>
+<?php
 
-<h2>Thèmes</h2>
+session_start();
 
-<form action="index.html" method="post" id="themeChoises">
+require_once('src/model.php');
+$userModel = new UserModel();
 
-    <label class="container Tropical-Blue">
-        <input type="checkbox" class="themeBox" id="Tropical-Blue">
-        <span class="checkmark"></span>
-        Tropical-Blue
-    </label>
+if (!isset($_SESSION['login'])) {
+    header('Location: /connexion');
+    exit();
+}
 
-    <label class="container Pippin">
-        <input type="checkbox" class="themeBox" id="Pippin">
-        <span class="checkmark"></span>
-        Pippin
-    </label>
+$prenom = $_SESSION['prenom'];
+$nom = $_SESSION['nom'];
+$login = $_SESSION['login'];
+$role = $_SESSION['role'];
+$class = $_SESSION['class'];
 
-    <label class="container Beryl-Green">
-        <input type="checkbox" class="themeBox" id="Beryl-Green">
-        <span class="checkmark"></span>
-        Beryl-Green
-    </label>
+require_once('parametre_view.php');
 
-    <label class="container Amour">
-        <input type="checkbox" class="themeBox" id="Amour">
-        <span class="checkmark"></span>
-        Amour
-    </label>
-
-    <label class="container Silver-Rust">
-        <input type="checkbox" class="themeBox" id="Silver-Rust">
-        <span class="checkmark"></span>
-        Silver-Rust
-    </label>
-
-    <label class="container Lucky-Point">
-        <input type="checkbox" class="themeBox" id="Lucky-Point">
-        <span class="checkmark"></span>
-        Lucky-Point
-    </label>
-
-    <label class="container Chat">
-        <input type="checkbox" class="themeBox" id="Chat">
-        <span class="checkmark"></span>
-        Chat
-    </label>
-
-</form>
-
-<script src="src/layout/script/checktheme.js"></script>
+?>

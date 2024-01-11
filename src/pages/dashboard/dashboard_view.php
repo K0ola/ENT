@@ -2,13 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Tableau de bord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
+    <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/pages/dashboard/styles/dashboard.css">
+    <title>Tableau de bord</title>
 </head>
 <body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
+    <?php require_once('src/layout/nav.php'); ?><!DOCTYPE html>
+
     <div class="dashboard-container">
         
         <?php
@@ -28,5 +33,7 @@
 
     </div>
     <?php require_once 'src/layout/discussion.php'; ?>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>
+

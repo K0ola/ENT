@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
     <link rel="stylesheet" href="src/pages/connexion/styles/connexion.css">
+    <title>Connexion</title>
 </head>
 <body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
+
     <section id="background">
 
     </section>
@@ -42,7 +44,8 @@
             </label>
         </form>
     </section>
-    <script src="src/layout/script/theme.js"></script>
     <script src="src/pages/connexion/script.js"></script>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>
+

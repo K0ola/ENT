@@ -15,7 +15,7 @@ $role = $_SESSION['role'];
 $class = $_SESSION['class'];
 
 function findProfileImagePath($baseDir, $login, $userId) {
-    $extensions = ['jpg', 'png', 'jpeg', 'gif']; 
+    $extensions = ['jpg', 'png', 'jpeg', 'gif', 'webp'];
     foreach ($extensions as $ext) {
         $filePath = $baseDir . "pdp_user_" . $login . "_" . $userId . "." . $ext;
         if (file_exists($filePath)) {
@@ -25,7 +25,7 @@ function findProfileImagePath($baseDir, $login, $userId) {
     return "src/assets/user/user_icon.png"; // Assurez-vous que ce chemin vers l'image par défaut est correct
 }
 
-$imagePath = findProfileImagePath("src/assets/user/", $_SESSION['login'], $_SESSION['id_utilisateur']);
+$_SESSION["icon_user"] = findProfileImagePath("src/assets/user/", $_SESSION['login'], $_SESSION['id_utilisateur']);
 
 
 require_once('profil_view.php');

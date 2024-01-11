@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -5,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
+    <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/pages/discussion/styles/discussion.css">
     <title>Discussion</title>
 </head>
-<?php require_once('src/layout/nav.php'); ?>
-<body>
+<body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
+    <?php require_once('src/layout/nav.php'); ?>
+
     <div class="discussion-container">
         <div class="sidebar">
             <h1 class="txt_h1">Discussion</h1>
@@ -68,5 +73,6 @@
             <?php endif; ?>
         </div>
     </div>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

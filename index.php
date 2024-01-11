@@ -77,7 +77,7 @@ switch ($page) {
         break;
 
     case 'upload-pdp':
-        require_once('src/pages/parametre/upload.php');
+        require_once('src/pages/profil/upload.php');
         break;
 }
 ?>

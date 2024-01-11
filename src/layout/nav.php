@@ -1,13 +1,11 @@
 <?php session_start()?>
 
-<link rel="stylesheet" href="src/layout/styles/nav.css">
 <nav class="txt_nav">
-    <script src="src/layout/script/theme.js"></script>
     <img class="Icon_Big BurgerIcon" src="src/assets/icon/Menu.svg" alt="Menu"/>
     <div class="Nav_Menu">
         <header>
             <!-- <a href="/notifications"><img src="" alt="Notifications"></a> -->
-            <a href="/profil" class="Nav_profil noDeco"><img class="Icon_Larger" src="src/assets/user/user_icon.png"/><p><?= $_SESSION['prenom'] ?></p></a>
+            <a href="/profil" class="Nav_profil noDeco"><img class="Icon_Larger profil_Pic" src="<?= $_SESSION["icon_user"] ?>"/><p><?= $_SESSION['prenom'] ?></p></a>
             <a href="src/logout.php" class="Nav_logOut">Déconnexion</a>
         </header>
         <hr/>
@@ -41,4 +39,3 @@
         </footer>
     </div>
 </nav>
-<script src="src/layout/script/burger.js"></script>
