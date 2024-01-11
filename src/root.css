@@ -84,6 +84,10 @@ body{
     background: var(--Fond-Body);
 }
 
+.Icon path {
+    stroke: var(--Text-1);
+}
+
 .Icon_Small {
     height: 16px;
     width: 16px;

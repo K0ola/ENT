@@ -1,12 +1,22 @@
-function discussion(){
-    if(document.getElementById('discussion-box').classList.contains('hidden')){
-        console.log('test');
-        document.getElementById('discussion-box').classList.remove('hidden');
-        document.getElementById('discussion-box').classList.add('visible');
-    } else if(document.getElementById('discussion-box').classList.contains('visible')){
-        console.log('hello you');
-        document.getElementById('discussion-box').classList.remove('visible');
-        document.getElementById('discussion-box').classList.add('hidden');
+let box = document.querySelector("#discussion-box");
+let flag = 0;
+
+document.querySelector("#top-disc").addEventListener("click", openDiscussion);
+
+function openDiscussion(){
+
+    if(flag == 0){
+
+        console.log('coucou');
+        box.classList.add("openDiscus");
+        flag = 1;
+
+    } else {
+
+        console.log('Bye');
+        box.classList.remove("openDiscus");
+        flag = 0;
+
     }
 
 }
