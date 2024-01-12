@@ -53,7 +53,7 @@ switch ($page) {
         break;
     
     case 'vie-scolaire':
-        require_once('src/pages/vie_scolaire/vie_scolaire_controller.php');
+        require_once('src/pages/vie-scolaire/vie-scolaire_controller.php');
         break;
     
     case 'outils':
@@ -76,8 +76,13 @@ switch ($page) {
         require_once('src/pages/discussion/send_message.php');
         break;
 
+    case 'notes':
+        require_once('src/pages/notes/note_controller.php');
+        break;
+
     case 'upload-pdp':
         require_once('src/pages/profil/upload.php');
         break;
+    
 }
 ?>

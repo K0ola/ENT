@@ -38,6 +38,14 @@
                 </div>
                 <a href="/mdp-forget" class="txt_micro">Mot de passe oublié ?</a>
             </div>
+            <?php
+                if ($_SERVER ['REQUEST_METHOD'] === 'GET') {
+                    if (isset($_GET['error'])) {
+                        $error = '<p>Login ou mot de passe incorrect.</p>';
+                        echo $error;
+                    }
+                }
+            ?>
             <label class="connexionBTN_container txt_nav">
                 <input type="submit" value="Connexion" id="btn_connexion">
                 Connexion

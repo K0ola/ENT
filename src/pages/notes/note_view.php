@@ -51,10 +51,14 @@ if (isset($_SESSION['id_utilisateur']) && $_SESSION['role'] === 'prof') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/pages/vie-scolaire/vie-scolaire.css">
     <link rel="stylesheet" href="src/root.css">
+    <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Gestion des Notes</title>
 </head>
-<body>
+<body class="Tropical-Blue">
+    
+    <script src="src/layout/script/theme.js"></script>
     <?php require_once('src/layout/nav.php'); ?>
 
     <h1>Gestion des Notes</h1>
@@ -90,5 +94,7 @@ if (isset($_SESSION['id_utilisateur']) && $_SESSION['role'] === 'prof') {
     </table>
     <button type="submit">Enregistrer les notes</button>
 </form>
+    <?php require_once 'src/layout/discussion.php'; ?>
+    <script src="src/layout/script/burger.js"></script>
 </body>
 </html>

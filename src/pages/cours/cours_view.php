@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/root.css">
     <link rel="stylesheet" href="src/layout/styles/nav.css">
     <link rel="stylesheet" href="src/layout/styles/theme.css">
+	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Cours</title>
 </head>
 <body class="Tropical-Blue">
