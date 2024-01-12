@@ -11,13 +11,12 @@
 	<link rel="icon" href="src/assets/outils/Univ_eiffel.svg"/>
     <title>Discussion</title>
 </head>
-<body class="Tropical-Blue">
+<body class="Tropical-Blue" >
     
     <script src="src/layout/script/theme.js"></script>
     <?php require_once('src/layout/nav.php'); ?>
 
-    <div class="discussion-container">
-        <div class="sidebar <?php if (isset($_GET["conversation_id"])) { echo "Hidden_Sidebar";}?>">
+    <div class="discussion-container" data-conversation-id="<?php echo htmlspecialchars($selectedConversationId); ?>">        <div class="sidebar <?php if (isset($_GET["conversation_id"])) { echo "Hidden_Sidebar";}?>">
             <h1 class="txt_h1">Discussion</h1>
 
             <div>
@@ -65,7 +64,6 @@
                 <?php endif; ?>
 
                 <div class="message-list">
-
                     <?php foreach ($messages as $message): ?>
                         <div class="<?php if ($message['prenom_utilisateur'] == $_SESSION['prenom'] && $message['nom_utilisateur'] == $_SESSION['nom']) { echo "message_D";}?> message">
                             <div class="message-header">
@@ -89,6 +87,7 @@
         </div>
     </div>
     <script src="src/layout/script/burger.js"></script>
+    <script src="src/pages/discussion/discussion.js"></script>
     <script>
         const messageBox = document.querySelector('.message-list');
         messageBox.scrollTop = messageBox.scrollHeight;

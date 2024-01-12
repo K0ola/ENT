@@ -1,7 +1,13 @@
 <?php session_start()?>
 
 <nav class="txt_nav">
-    <img class="Icon_Big BurgerIcon" src="src/assets/icon/Menu.svg" alt="Menu"/>
+    <svg class="Icon_Big BurgerIcon BurgerIconC Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 12H20M4 6H20M4 18H20" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg class="Icon_Big BurgerIcon BurgerIconO Icon"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 6L6 18M6 6L18 18" stroke="#09090B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
     <div class="Nav_Menu">
         <header>
             <!-- <a href="/notifications"><img src="" alt="Notifications"></a> -->

@@ -24,6 +24,10 @@ nav{
     grid-area: i;
 }
 
+.BurgerIconO {
+    display: none;
+}
+
 .ouvert {
     height: 380px;
     width: 96vw;
@@ -144,6 +148,14 @@ nav hr {
     }
 
     .BurgerIcon {
+        display: none;
+    }
+
+    .BurgerIconC {
+        display: none;
+    }
+
+    .BurgerIconO {
         display: none;
     }
 
