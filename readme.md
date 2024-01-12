@@ -1,5 +1,6 @@
 
 url du site: https://ent-mmi.site
+
 url du depot git-hub: https://github.com/K0ola/ENT
 
 ENT MMI - SAÉ 3.01 - Concevoir et développer
@@ -25,7 +26,3 @@ Mot de passe: test
 Professeur:
 Identifiant: frederic.poisson
 Mot de passe: poisson
-
-Administrateur:
-Identifiant: admin
-Mot de passe: compte admin
